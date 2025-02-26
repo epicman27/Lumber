@@ -16,7 +16,7 @@ public class FireAxeItem extends AxeItem {
 	public FireAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 250;
 			}
 
 			public float getSpeed() {
