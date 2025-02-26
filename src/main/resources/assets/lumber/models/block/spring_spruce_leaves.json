@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lumber:block/spring_spruce_leaves",
+    "particle": "lumber:block/spring_spruce_leaves"
+  }
+}

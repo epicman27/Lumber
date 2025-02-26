@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lumber:polished_oak_fence",
+    "lumber:polished_birch_fence",
+    "lumber:polished_spruce_fence",
+    "lumber:polished_dark_oak_fence",
+    "lumber:polished_acacia_fence",
+    "lumber:polished_jungle_fence",
+    "lumber:polished_crimson_fence",
+    "lumber:polished_warped_fence"
+  ]
+}

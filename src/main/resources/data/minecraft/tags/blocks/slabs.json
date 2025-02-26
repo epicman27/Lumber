@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lumber:polished_warped_slab",
+    "lumber:polished_crimson_slab",
+    "lumber:polished_jungle_slab",
+    "lumber:polished_acacia_slab",
+    "lumber:polished_dark_oak_slab",
+    "lumber:polished_spruce_slab",
+    "lumber:polished_birch_slab",
+    "lumber:polished_oak_slab"
+  ]
+}

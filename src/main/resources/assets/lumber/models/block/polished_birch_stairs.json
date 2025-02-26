@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "lumber:block/polished_birch_planks",
+    "bottom": "lumber:block/polished_birch_planks",
+    "top": "lumber:block/polished_birch_planks",
+    "side": "lumber:block/polished_birch_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "lumber:block/polished_crimson_planks",
+    "bottom": "lumber:block/polished_crimson_planks",
+    "top": "lumber:block/polished_crimson_planks",
+    "side": "lumber:block/polished_crimson_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "lumber:block/polished_acacia_planks_2",
+    "particle": "lumber:block/polished_acacia_planks_2"
+  },
+  "render_type": "solid"
+}

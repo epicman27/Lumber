@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "lumber:block/polished_dark_oak_planks",
+    "particle": "lumber:block/polished_dark_oak_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lumber:block/polished_oak_planks",
+    "up": "lumber:block/polished_oak_planks",
+    "north": "lumber:block/polished_oak_planks",
+    "east": "lumber:block/polished_oak_planks",
+    "south": "lumber:block/polished_oak_planks",
+    "west": "lumber:block/polished_oak_planks",
+    "particle": "lumber:block/polished_oak_planks"
+  },
+  "render_type": "solid"
+}

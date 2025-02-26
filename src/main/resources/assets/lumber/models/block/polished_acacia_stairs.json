@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "lumber:block/polished_acacia_planks_2",
+    "bottom": "lumber:block/polished_acacia_planks_2",
+    "top": "lumber:block/polished_acacia_planks_2",
+    "side": "lumber:block/polished_acacia_planks_2"
+  },
+  "render_type": "solid"
+}

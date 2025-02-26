@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lumber:block/oak_logs_top",
+    "up": "lumber:block/oak_logs_top",
+    "north": "lumber:block/oak_logs",
+    "east": "lumber:block/oak_logs",
+    "south": "lumber:block/oak_logs",
+    "west": "lumber:block/oak_logs",
+    "particle": "lumber:block/oak_logs_top"
+  },
+  "render_type": "solid"
+}

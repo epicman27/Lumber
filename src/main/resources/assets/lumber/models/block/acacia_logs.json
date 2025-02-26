@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lumber:block/acacia_logs",
+    "up": "lumber:block/acacia_logs",
+    "north": "lumber:block/acacia_logs_side",
+    "east": "lumber:block/acacia_logs_side",
+    "south": "lumber:block/acacia_logs_side",
+    "west": "lumber:block/acacia_logs_side",
+    "particle": "lumber:block/acacia_logs"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lumber:block/polished_crimson_planks",
+    "up": "lumber:block/polished_crimson_planks",
+    "north": "lumber:block/polished_crimson_planks",
+    "east": "lumber:block/polished_crimson_planks",
+    "south": "lumber:block/polished_crimson_planks",
+    "west": "lumber:block/polished_crimson_planks",
+    "particle": "lumber:block/polished_crimson_planks"
+  },
+  "render_type": "solid"
+}

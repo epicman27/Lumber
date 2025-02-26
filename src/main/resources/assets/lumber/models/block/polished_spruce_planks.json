@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lumber:block/polished_spruce_planks_2",
+    "up": "lumber:block/polished_spruce_planks_2",
+    "north": "lumber:block/polished_spruce_planks_2",
+    "east": "lumber:block/polished_spruce_planks_2",
+    "south": "lumber:block/polished_spruce_planks_2",
+    "west": "lumber:block/polished_spruce_planks_2",
+    "particle": "lumber:block/polished_spruce_planks_2"
+  },
+  "render_type": "solid"
+}

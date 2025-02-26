@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lumber:polished_warped_stairs",
+    "lumber:polished_crimson_stairs",
+    "lumber:polished_jungle_stairs",
+    "lumber:polished_acacia_stairs",
+    "lumber:polished_dark_oak_stairs",
+    "lumber:polished_spruce_stairs",
+    "lumber:polished_birch_stairs",
+    "lumber:polished_oak_stairs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lumber:block/polished_oak_slab"
+    },
+    "type=top": {
+      "model": "lumber:block/polished_oak_slab_top"
+    },
+    "type=double": {
+      "model": "lumber:block/polished_oak_slab_full"
+    }
+  }
+}
