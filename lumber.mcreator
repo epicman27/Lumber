@@ -813,8 +813,8 @@
       "registry_name": "fire_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/item/FireAxeItem.java",
-          "src/main/resources/assets/lumber/models/item/fire_axe.json"
+          "src/main/resources/assets/lumber/models/item/fire_axe.json",
+          "src/main/java/net/mcreator/lumber/item/FireAxeItem.java"
         ]
       }
     },
@@ -829,6 +829,10 @@
           "src/main/java/net/mcreator/lumber/procedures/FireAxeRightclickedOnBlockProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
           {
             "name": "x",
             "type": "number"
@@ -968,8 +972,8 @@
       "block.lumber.polished_acacia_planks": "Polished Acacia Planks",
       "biome.lumber.spring_forest": "Spring Forest",
       "block.lumber.polished_birch_planks": "Polished Birch Planks",
-      "block.lumber.polished_birch_slab": "Polished Birch Slab",
       "block.lumber.acacia_logs": "Acacia Log Bundle",
+      "block.lumber.polished_birch_slab": "Polished Birch Slab",
       "entity.lumber.lumber_bot_v_1": "Lumber Bot 1.0",
       "block.lumber.polished_warped_slab": "Polished Warped Slab",
       "block.lumber.polished_birch_stairs": "Polished Birch Stairs",
