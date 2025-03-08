@@ -64,6 +64,7 @@ public class LumberModItems {
 	public static final RegistryObject<Item> FIRE_AXE = REGISTRY.register("fire_axe", () -> new FireAxeItem());
 	public static final RegistryObject<Item> SPRING_SPRUCE_LEAVES = block(LumberModBlocks.SPRING_SPRUCE_LEAVES);
 	public static final RegistryObject<Item> FLOWERING_SPRING_SPRUCE_LEAVES = block(LumberModBlocks.FLOWERING_SPRING_SPRUCE_LEAVES);
+	public static final RegistryObject<Item> LIGHTBULB_ON_A_STICK = block(LumberModBlocks.LIGHTBULB_ON_A_STICK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -52,6 +52,7 @@ import net.mcreator.lumber.block.PolishedAcaciaPlanksBlock;
 import net.mcreator.lumber.block.PolishedAcaciaFenceGateBlock;
 import net.mcreator.lumber.block.PolishedAcaciaFenceBlock;
 import net.mcreator.lumber.block.OakLogsBlock;
+import net.mcreator.lumber.block.LightbulbOnAStickBlock;
 import net.mcreator.lumber.block.FloweringSpringSpruceLeavesBlock;
 import net.mcreator.lumber.block.AcaciaLogsBlock;
 import net.mcreator.lumber.LumberMod;
@@ -102,6 +103,7 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> OAK_LOGS = REGISTRY.register("oak_logs", () -> new OakLogsBlock());
 	public static final RegistryObject<Block> SPRING_SPRUCE_LEAVES = REGISTRY.register("spring_spruce_leaves", () -> new SpringSpruceLeavesBlock());
 	public static final RegistryObject<Block> FLOWERING_SPRING_SPRUCE_LEAVES = REGISTRY.register("flowering_spring_spruce_leaves", () -> new FloweringSpringSpruceLeavesBlock());
+	public static final RegistryObject<Block> LIGHTBULB_ON_A_STICK = REGISTRY.register("lightbulb_on_a_stick", () -> new LightbulbOnAStickBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

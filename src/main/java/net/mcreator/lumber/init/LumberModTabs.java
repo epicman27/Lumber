@@ -48,6 +48,7 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_WARPED_SLAB.get().asItem());
 			tabData.accept(LumberModBlocks.ACACIA_LOGS.get().asItem());
 			tabData.accept(LumberModBlocks.OAK_LOGS.get().asItem());
+			tabData.accept(LumberModBlocks.LIGHTBULB_ON_A_STICK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_BIRCH_FENCE.get().asItem());

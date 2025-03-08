@@ -1,0 +1,9 @@
+{
+  "parent": "lumber:custom/lightbulb_on_a_stick",
+  "textures": {
+    "all": "lumber:block/lightbulb_on_a_stick_texture",
+    "particle": "lumber:block/lightbulb_on_a_stick_texture",
+    "0": "lumber:block/lightbulb_on_a_stick_texture"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "lumber:blocks/lightbulb_on_a_stick",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lumber:lightbulb_on_a_stick"
+        }
+      ]
+    }
+  ]
+}
