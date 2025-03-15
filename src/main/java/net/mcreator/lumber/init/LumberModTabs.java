@@ -71,6 +71,7 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_WARPED_FENCE_GATE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LumberModItems.LUMBER_BOT_V_1_SPAWN_EGG.get());
+			tabData.accept(LumberModItems.SAWBLADE_PROJECTILE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LumberModItems.FIRE_AXE.get());
 		}
