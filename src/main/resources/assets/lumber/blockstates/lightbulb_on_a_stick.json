@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lumber:block/lightbulb_on_a_stick"
+    },
+    "facing=east": {
+      "model": "lumber:block/lightbulb_on_a_stick",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lumber:block/lightbulb_on_a_stick",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lumber:block/lightbulb_on_a_stick",
+      "y": 270
+    }
+  }
+}

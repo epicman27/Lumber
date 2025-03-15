@@ -48,6 +48,7 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_WARPED_SLAB.get().asItem());
 			tabData.accept(LumberModBlocks.ACACIA_LOGS.get().asItem());
 			tabData.accept(LumberModBlocks.OAK_LOGS.get().asItem());
+			tabData.accept(LumberModBlocks.LIGHTBULB_ON_A_STICK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_BIRCH_FENCE.get().asItem());
@@ -70,6 +71,7 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_WARPED_FENCE_GATE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LumberModItems.LUMBER_BOT_V_1_SPAWN_EGG.get());
+			tabData.accept(LumberModItems.SAWBLADE_PROJECTILE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LumberModItems.FIRE_AXE.get());
 		}

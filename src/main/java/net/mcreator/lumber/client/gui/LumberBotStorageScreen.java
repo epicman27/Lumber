@@ -60,7 +60,7 @@ public class LumberBotStorageScreen extends AbstractContainerScreen<LumberBotSto
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.lumber.lumber_bot_storage.label_lumber_storage"), 50, 8, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.lumber.lumber_bot_storage.label_lumber_storage"), 51, 8, -12829636, false);
 	}
 
 	@Override
