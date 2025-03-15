@@ -897,6 +897,52 @@
           "src/main/resources/data/lumber/worldgen/configured_feature/spring_forest_tree.json"
         ]
       }
+    },
+    {
+      "name": "Saw",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/damage_type/saw.json"
+        ]
+      }
+    },
+    {
+      "name": "SawbladeFaceOnTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawblade_face_on_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/procedures/SawbladeFaceOnTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1022,6 +1068,8 @@
       "block.lumber.polished_warped_stairs": "Polished Warped Stairs",
       "block.lumber.polished_oak_slab": "Polished Oak Slab",
       "block.lumber.polished_acacia_fence_gate": "Polished Acacia Fence Gate",
+      "death.attack.saw.player": "%1$s was sawn in half whilst escaping %2$s",
+      "death.attack.saw.item": "%1$s was cut in half by %2$s using %3$s",
       "block.lumber.polished_birch_fence": "Polished Birch Fence",
       "block.lumber.polished_warped_planks": "Polished Warped Planks",
       "block.lumber.polished_spruce_planks": "Polished Spruce Planks",
@@ -1038,6 +1086,7 @@
       "block.lumber.polished_birch_slab": "Polished Birch Slab",
       "entity.lumber.lumber_bot_v_1": "Lumber Bot 1.0",
       "block.lumber.polished_warped_slab": "Polished Warped Slab",
+      "death.attack.saw": "%1$s was sawn",
       "block.lumber.polished_birch_stairs": "Polished Birch Stairs",
       "block.lumber.polished_warped_fence": "Polished Warped Fence",
       "block.lumber.polished_spruce_slab": "Polished Spruce Slab",
