@@ -27,10 +27,8 @@ public class LumberModEntities {
 			EntityType.Builder.<LumberBotV1Entity>of(LumberBotV1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LumberBotV1Entity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SawbladeProjectileEntity>> SAWBLADE_PROJECTILE = register("sawblade_projectile",
-			EntityType.Builder.<SawbladeProjectileEntity>of(SawbladeProjectileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SawbladeProjectileEntity::new)
-
-					.sized(0.3f, 0.2f));
+	public static final RegistryObject<EntityType<SawbladeProjectileEntity>> SAWBLADE_PROJECTILE = register("sawblade_projectile", EntityType.Builder.<SawbladeProjectileEntity>of(SawbladeProjectileEntity::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(SawbladeProjectileEntity::new).fireImmune().sized(0.3f, 0.2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
