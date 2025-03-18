@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "lumber:block/oak_logs",
+    "bottom": "lumber:block/oak_logs",
+    "top": "lumber:block/oak_logs",
+    "side": "lumber:block/oak_logs_top"
+  },
+  "render_type": "solid"
+}

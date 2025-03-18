@@ -2,25 +2,26 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "lightbulb_on_a_stick_texture",
-    "textureTop": "",
+    "texture": "packed_mud",
+    "textureTop": "packed_mud",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "packed_mud",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "lightbulb_on_a_stick:default",
-    "rotationMode": 1,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,12 +35,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Lightbulb on a Stick",
+    "name": "Packed Mud Slab",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 10.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -59,7 +60,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,10 +82,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PACKED_MUD"
     },
     "breakSound": {
       "value": ""
@@ -101,7 +102,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
@@ -123,11 +124,7 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
