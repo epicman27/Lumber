@@ -1022,6 +1022,120 @@
       }
     },
     {
+      "name": "PackedMudSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OakLogStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs.json",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_inner.json",
+          "src/main/resources/assets/lumber/models/item/oak_log_stairs.json",
+          "src/main/resources/assets/lumber/blockstates/oak_log_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs.json",
+          "src/main/java/net/mcreator/lumber/block/OakLogStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/packed_mud_slab_full.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_slab.json",
+          "src/main/resources/assets/lumber/models/item/packed_mud_slab.json",
+          "src/main/resources/assets/lumber/blockstates/packed_mud_slab.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_slab.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_slab_top.json",
+          "src/main/java/net/mcreator/lumber/block/PackedMudSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudStairsRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_stairs_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_stairs_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudSlabRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/PackedMudStairsBlock.java",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_inner.json",
+          "src/main/resources/assets/lumber/blockstates/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/item/packed_mud_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudSlabRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe_1.json"
+        ]
+      }
+    },
+    {
       "name": "StaircasePlaceProcedure",
       "type": "procedure",
       "compiles": true,
@@ -1067,6 +1181,7 @@
       "~CUSTOM:SpringForest"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PackedMudSlab",
       "~CUSTOM:PolishedWarpedSlab",
       "~CUSTOM:PolishedCrimsonSlab",
       "~CUSTOM:PolishedJungleSlab",
@@ -1090,6 +1205,8 @@
       "CUSTOM:FireAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PackedMudStairs",
+      "~CUSTOM:OakLogStairs",
       "~CUSTOM:PolishedWarpedStairs",
       "~CUSTOM:PolishedCrimsonStairs",
       "~CUSTOM:PolishedJungleStairs",
@@ -1186,6 +1303,7 @@
       "block.lumber.polished_spruce_planks": "Polished Spruce Planks",
       "gui.lumber.lumber_bot_storage.label_lumber_storage": "Lumber Storage",
       "block.lumber.polished_acacia_slab": "Polished Acacia Slab",
+      "block.lumber.packed_mud_stairs": "Packed Mud Stairs",
       "block.lumber.polished_jungle_planks": "Polished Jungle Planks",
       "block.lumber.lightbulb_on_a_stick": "Lightbulb on a Stick",
       "block.lumber.polished_oak_fence": "Polished Oak Fence",
@@ -1207,12 +1325,14 @@
       "block.lumber.polished_jungle_stairs": "Polished Jungle Stairs",
       "block.lumber.polished_spruce_fence_gate": "Polished Spruce Fence Gate",
       "block.lumber.flowering_spring_spruce_leaves": "Flowering Spring Spruce Leaves",
+      "block.lumber.oak_log_stairs": "Oak Log Bundle",
       "block.lumber.polished_spruce_stairs": "Polished Spruce Stairs",
       "block.lumber.oak_logs": "Oak Log Bundle",
       "block.lumber.polished_oak_fence_gate": "Polished Oak Fence Gate",
       "block.lumber.polished_crimson_stairs": "Polished Crimson Stairs",
       "item.lumber.debug": "Debug",
       "entity.lumber.sawblade_projectile": "Sawblade Projectile",
+      "block.lumber.packed_mud_slab": "Packed Mud Slab",
       "block.lumber.spring_spruce_leaves": "Spring Spruce Leaves",
       "block.lumber.polished_jungle_fence_gate": "Polished Jungle Fence Gate",
       "block.lumber.polished_crimson_slab": "Polished Crimson Slab",

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "lumber:block/packed_mud",
+    "bottom": "lumber:block/packed_mud",
+    "top": "lumber:block/packed_mud",
+    "side": "lumber:block/packed_mud"
+  },
+  "render_type": "solid"
+}
