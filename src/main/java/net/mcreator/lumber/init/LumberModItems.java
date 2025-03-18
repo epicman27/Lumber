@@ -68,9 +68,6 @@ public class LumberModItems {
 	public static final RegistryObject<Item> LIGHTBULB_ON_A_STICK = block(LumberModBlocks.LIGHTBULB_ON_A_STICK);
 	public static final RegistryObject<Item> SAWBLADE_PROJECTILE_SPAWN_EGG = REGISTRY.register("sawblade_projectile_spawn_egg", () -> new ForgeSpawnEggItem(LumberModEntities.SAWBLADE_PROJECTILE, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DEBUG = REGISTRY.register("debug", () -> new DebugItem());
-	public static final RegistryObject<Item> OAK_LOG_STAIRS = block(LumberModBlocks.OAK_LOG_STAIRS);
-	public static final RegistryObject<Item> PACKED_MUD_SLAB = block(LumberModBlocks.PACKED_MUD_SLAB);
-	public static final RegistryObject<Item> PACKED_MUD_STAIRS = block(LumberModBlocks.PACKED_MUD_STAIRS);
 
 	// Start of user code block custom items
 	// End of user code block custom items
