@@ -107,9 +107,9 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> SPRING_SPRUCE_LEAVES = REGISTRY.register("spring_spruce_leaves", () -> new SpringSpruceLeavesBlock());
 	public static final RegistryObject<Block> FLOWERING_SPRING_SPRUCE_LEAVES = REGISTRY.register("flowering_spring_spruce_leaves", () -> new FloweringSpringSpruceLeavesBlock());
 	public static final RegistryObject<Block> LIGHTBULB_ON_A_STICK = REGISTRY.register("lightbulb_on_a_stick", () -> new LightbulbOnAStickBlock());
-	public static final RegistryObject<Block> PACKED_MUD_STAIRS = REGISTRY.register("packed_mud_stairs", () -> new PackedMudStairsBlock());
-	public static final RegistryObject<Block> PACKED_MUD_SLAB = REGISTRY.register("packed_mud_slab", () -> new PackedMudSlabBlock());
 	public static final RegistryObject<Block> OAK_LOG_STAIRS = REGISTRY.register("oak_log_stairs", () -> new OakLogStairsBlock());
+	public static final RegistryObject<Block> PACKED_MUD_SLAB = REGISTRY.register("packed_mud_slab", () -> new PackedMudSlabBlock());
+	public static final RegistryObject<Block> PACKED_MUD_STAIRS = REGISTRY.register("packed_mud_stairs", () -> new PackedMudStairsBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

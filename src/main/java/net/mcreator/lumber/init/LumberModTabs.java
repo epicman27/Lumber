@@ -49,9 +49,9 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.ACACIA_LOGS.get().asItem());
 			tabData.accept(LumberModBlocks.OAK_LOGS.get().asItem());
 			tabData.accept(LumberModBlocks.LIGHTBULB_ON_A_STICK.get().asItem());
-			tabData.accept(LumberModBlocks.PACKED_MUD_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.PACKED_MUD_SLAB.get().asItem());
 			tabData.accept(LumberModBlocks.OAK_LOG_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.PACKED_MUD_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.PACKED_MUD_STAIRS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_BIRCH_FENCE.get().asItem());

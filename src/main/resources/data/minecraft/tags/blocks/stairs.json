@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "lumber:oak_log_stairs",
     "lumber:packed_mud_stairs",
+    "lumber:oak_log_stairs",
     "lumber:polished_warped_stairs",
     "lumber:polished_crimson_stairs",
     "lumber:polished_jungle_stairs",

@@ -952,11 +952,11 @@
       "registry_name": "lightbulb_on_a_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/LightbulbOnAStickBlock.java",
+          "src/main/resources/assets/lumber/models/block/lightbulb_on_a_stick.json",
           "src/main/resources/data/lumber/loot_tables/blocks/lightbulb_on_a_stick.json",
-          "src/main/resources/assets/lumber/blockstates/lightbulb_on_a_stick.json",
           "src/main/resources/assets/lumber/models/item/lightbulb_on_a_stick.json",
-          "src/main/resources/assets/lumber/models/block/lightbulb_on_a_stick.json"
+          "src/main/resources/assets/lumber/blockstates/lightbulb_on_a_stick.json",
+          "src/main/java/net/mcreator/lumber/block/LightbulbOnAStickBlock.java"
         ]
       }
     },
@@ -1022,20 +1022,32 @@
       }
     },
     {
-      "name": "PackedMudStairs",
+      "name": "PackedMudSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OakLogStairs",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "packed_mud_stairs",
+      "registry_name": "oak_log_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PackedMudStairsBlock.java",
-          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_inner.json",
-          "src/main/resources/assets/lumber/blockstates/packed_mud_stairs.json",
-          "src/main/resources/assets/lumber/models/item/packed_mud_stairs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_stairs.json",
-          "src/main/resources/assets/lumber/models/block/packed_mud_stairs.json",
-          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_outer.json"
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs.json",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_inner.json",
+          "src/main/resources/assets/lumber/models/item/oak_log_stairs.json",
+          "src/main/resources/assets/lumber/blockstates/oak_log_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs.json",
+          "src/main/java/net/mcreator/lumber/block/OakLogStairsBlock.java"
         ]
       }
     },
@@ -1058,18 +1070,6 @@
       }
     },
     {
-      "name": "PackedMudStairsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "packed_mud_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lumber/recipes/packed_mud_stairs_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "PackedMudStairsRecipe1",
       "type": "recipe",
       "compiles": true,
@@ -1078,30 +1078,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/lumber/recipes/packed_mud_stairs_recipe_1.json"
-        ]
-      }
-    },
-    {
-      "name": "PackedMudSlabRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "packed_mud_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "PackedMudSlabRecipe1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "packed_mud_slab_recipe_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe_1.json"
         ]
       }
     },
@@ -1118,20 +1094,78 @@
       }
     },
     {
-      "name": "OakLogStairs",
+      "name": "PackedMudStairs",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oak_log_stairs",
+      "registry_name": "packed_mud_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/oak_log_stairs.json",
-          "src/main/resources/assets/lumber/models/block/oak_log_stairs_outer.json",
-          "src/main/resources/assets/lumber/models/block/oak_log_stairs_inner.json",
-          "src/main/resources/assets/lumber/models/item/oak_log_stairs.json",
-          "src/main/resources/assets/lumber/blockstates/oak_log_stairs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs.json",
-          "src/main/java/net/mcreator/lumber/block/OakLogStairsBlock.java"
+          "src/main/java/net/mcreator/lumber/block/PackedMudStairsBlock.java",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_inner.json",
+          "src/main/resources/assets/lumber/blockstates/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/item/packed_mud_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackedMudSlabRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_mud_slab_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/recipes/packed_mud_slab_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StaircasePlaceProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staircase_place_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/procedures/StaircasePlaceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -1171,8 +1205,8 @@
       "CUSTOM:FireAxe"
     ],
     "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:OakLogStairs",
       "~CUSTOM:PackedMudStairs",
+      "~CUSTOM:OakLogStairs",
       "~CUSTOM:PolishedWarpedStairs",
       "~CUSTOM:PolishedCrimsonStairs",
       "~CUSTOM:PolishedJungleStairs",
