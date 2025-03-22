@@ -8,11 +8,11 @@
       "registry_name": "polished_oak_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_planks.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_planks.json",
           "src/main/java/net/mcreator/lumber/block/PolishedOakPlanksBlock.java",
-          "src/main/resources/assets/lumber/blockstates/polished_oak_planks.json",
           "src/main/resources/assets/lumber/models/item/polished_oak_planks.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_planks.json"
+          "src/main/resources/assets/lumber/blockstates/polished_oak_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_planks.json"
         ]
       }
     },
@@ -25,9 +25,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/lumber/block/PolishedBirchPlanksBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_planks.json",
           "src/main/resources/assets/lumber/models/item/polished_birch_planks.json",
           "src/main/resources/assets/lumber/blockstates/polished_birch_planks.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_planks.json",
           "src/main/resources/assets/lumber/models/block/polished_birch_planks.json"
         ]
       }
@@ -40,11 +40,11 @@
       "registry_name": "polished_spruce_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_spruce_planks.json",
+          "src/main/resources/assets/lumber/models/item/polished_spruce_planks.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedSprucePlanksBlock.java",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_planks.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_planks.json",
-          "src/main/resources/assets/lumber/models/item/polished_spruce_planks.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedSprucePlanksBlock.java"
+          "src/main/resources/assets/lumber/blockstates/polished_spruce_planks.json"
         ]
       }
     },
@@ -56,11 +56,11 @@
       "registry_name": "polished_dark_oak_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/item/polished_dark_oak_planks.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_planks.json",
           "src/main/java/net/mcreator/lumber/block/PolishedDarkOakPlanksBlock.java",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_planks.json",
-          "src/main/resources/assets/lumber/models/item/polished_dark_oak_planks.json",
-          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_planks.json"
+          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_planks.json"
         ]
       }
     },
@@ -72,10 +72,10 @@
       "registry_name": "polished_acacia_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/block/polished_acacia_planks.json",
+          "src/main/resources/assets/lumber/models/item/polished_acacia_planks.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_planks.json",
           "src/main/java/net/mcreator/lumber/block/PolishedAcaciaPlanksBlock.java",
-          "src/main/resources/assets/lumber/models/item/polished_acacia_planks.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_planks.json",
           "src/main/resources/assets/lumber/blockstates/polished_acacia_planks.json"
         ]
       }
@@ -88,11 +88,11 @@
       "registry_name": "polished_jungle_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_jungle_planks.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_planks.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_planks.json",
           "src/main/resources/assets/lumber/blockstates/polished_jungle_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_planks.json",
           "src/main/java/net/mcreator/lumber/block/PolishedJunglePlanksBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_planks.json"
+          "src/main/resources/assets/lumber/models/item/polished_jungle_planks.json"
         ]
       }
     },
@@ -104,11 +104,11 @@
       "registry_name": "polished_crimson_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_crimson_planks.json",
           "src/main/java/net/mcreator/lumber/block/PolishedCrimsonPlanksBlock.java",
-          "src/main/resources/assets/lumber/blockstates/polished_crimson_planks.json",
           "src/main/resources/assets/lumber/models/item/polished_crimson_planks.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_planks.json"
+          "src/main/resources/assets/lumber/blockstates/polished_crimson_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_planks.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_planks.json"
         ]
       }
     },
@@ -120,11 +120,11 @@
       "registry_name": "polished_warped_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/block/polished_warped_planks.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedWarpedPlanksBlock.java",
           "src/main/resources/assets/lumber/blockstates/polished_warped_planks.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_planks.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedWarpedPlanksBlock.java",
-          "src/main/resources/assets/lumber/models/item/polished_warped_planks.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_planks.json"
+          "src/main/resources/assets/lumber/models/item/polished_warped_planks.json"
         ]
       }
     },
@@ -137,12 +137,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/lumber/blockstates/polished_oak_stairs.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedOakStairsBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_oak_stairs_inner.json",
           "src/main/resources/assets/lumber/models/item/polished_oak_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_stairs.json",
           "src/main/resources/assets/lumber/models/block/polished_oak_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_stairs_inner.json",
           "src/main/resources/assets/lumber/models/block/polished_oak_stairs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_stairs.json"
+          "src/main/java/net/mcreator/lumber/block/PolishedOakStairsBlock.java"
         ]
       }
     },
@@ -154,13 +154,13 @@
       "registry_name": "polished_birch_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_birch_stairs.json",
+          "src/main/resources/assets/lumber/models/item/polished_birch_stairs.json",
           "src/main/java/net/mcreator/lumber/block/PolishedBirchStairsBlock.java",
           "src/main/resources/assets/lumber/blockstates/polished_birch_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_birch_stairs_outer.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_birch_stairs.json",
           "src/main/resources/assets/lumber/models/block/polished_birch_stairs_inner.json",
-          "src/main/resources/assets/lumber/models/item/polished_birch_stairs.json"
+          "src/main/resources/assets/lumber/models/block/polished_birch_stairs_outer.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_stairs.json"
         ]
       }
     },
@@ -172,13 +172,13 @@
       "registry_name": "polished_spruce_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_spruce_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_stairs.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_stairs_outer.json",
           "src/main/resources/assets/lumber/blockstates/polished_spruce_stairs.json",
+          "src/main/resources/assets/lumber/models/item/polished_spruce_stairs.json",
           "src/main/java/net/mcreator/lumber/block/PolishedSpruceStairsBlock.java",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_stairs_inner.json"
+          "src/main/resources/assets/lumber/models/block/polished_spruce_stairs_inner.json",
+          "src/main/resources/assets/lumber/models/block/polished_spruce_stairs.json"
         ]
       }
     },
@@ -191,12 +191,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_stairs.json",
-          "src/main/resources/assets/lumber/models/item/polished_dark_oak_stairs.json",
-          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_stairs.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/item/polished_dark_oak_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_stairs.json",
           "src/main/java/net/mcreator/lumber/block/PolishedDarkOakStairsBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_stairs_inner.json"
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_stairs_inner.json",
+          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_stairs.json"
         ]
       }
     },
@@ -208,13 +208,13 @@
       "registry_name": "polished_acacia_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs_inner.json",
           "src/main/resources/assets/lumber/models/item/polished_acacia_stairs.json",
-          "src/main/resources/assets/lumber/blockstates/polished_acacia_stairs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs_outer.json",
           "src/main/java/net/mcreator/lumber/block/PolishedAcaciaStairsBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs_outer.json"
+          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs_inner.json",
+          "src/main/resources/assets/lumber/blockstates/polished_acacia_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_acacia_stairs.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_stairs.json"
         ]
       }
     },
@@ -226,13 +226,13 @@
       "registry_name": "polished_jungle_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_jungle_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs.json",
           "src/main/resources/assets/lumber/models/item/polished_jungle_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs_inner.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedJungleStairsBlock.java",
+          "src/main/resources/assets/lumber/blockstates/polished_jungle_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs_outer.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs_outer.json"
+          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_stairs_inner.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedJungleStairsBlock.java"
         ]
       }
     },
@@ -244,13 +244,13 @@
       "registry_name": "polished_crimson_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonStairsBlock.java",
-          "src/main/resources/assets/lumber/models/item/polished_crimson_stairs.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_stairs_outer.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_stairs.json",
           "src/main/resources/assets/lumber/models/block/polished_crimson_stairs_inner.json",
-          "src/main/resources/assets/lumber/blockstates/polished_crimson_stairs.json"
+          "src/main/resources/assets/lumber/blockstates/polished_crimson_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_stairs_outer.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonStairsBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_stairs.json",
+          "src/main/resources/assets/lumber/models/item/polished_crimson_stairs.json"
         ]
       }
     },
@@ -262,12 +262,12 @@
       "registry_name": "polished_warped_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_warped_stairs.json",
-          "src/main/resources/assets/lumber/blockstates/polished_warped_stairs.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_stairs_outer.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_stairs.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedWarpedStairsBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_warped_stairs_inner.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_stairs_outer.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedWarpedStairsBlock.java",
+          "src/main/resources/assets/lumber/blockstates/polished_warped_stairs.json",
           "src/main/resources/assets/lumber/models/item/polished_warped_stairs.json"
         ]
       }
@@ -280,13 +280,13 @@
       "registry_name": "polished_oak_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_oak_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_slab_top.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_slab_full.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedOakSlabBlock.java",
           "src/main/resources/assets/lumber/models/item/polished_oak_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_slab.json"
+          "src/main/resources/assets/lumber/blockstates/polished_oak_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_slab.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_slab_top.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedOakSlabBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_oak_slab_full.json"
         ]
       }
     },
@@ -298,13 +298,13 @@
       "registry_name": "polished_birch_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_birch_slab.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_birch_slab.json",
-          "src/main/resources/assets/lumber/models/item/polished_birch_slab.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedBirchSlabBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_birch_slab_top.json",
-          "src/main/resources/assets/lumber/models/block/polished_birch_slab_full.json"
+          "src/main/resources/assets/lumber/models/block/polished_birch_slab.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedBirchSlabBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_birch_slab_full.json",
+          "src/main/resources/assets/lumber/models/item/polished_birch_slab.json",
+          "src/main/resources/assets/lumber/blockstates/polished_birch_slab.json"
         ]
       }
     },
@@ -316,13 +316,13 @@
       "registry_name": "polished_spruce_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PolishedSpruceSlabBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_slab_full.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_slab.json",
-          "src/main/resources/assets/lumber/blockstates/polished_spruce_slab.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedSpruceSlabBlock.java",
           "src/main/resources/assets/lumber/models/item/polished_spruce_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_slab_top.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_slab.json"
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_slab.json",
+          "src/main/resources/assets/lumber/blockstates/polished_spruce_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_spruce_slab_full.json",
+          "src/main/resources/assets/lumber/models/block/polished_spruce_slab_top.json"
         ]
       }
     },
@@ -334,13 +334,13 @@
       "registry_name": "polished_dark_oak_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PolishedDarkOakSlabBlock.java",
-          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_slab.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_slab_top.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_slab.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedDarkOakSlabBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_slab_full.json",
+          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_slab.json",
           "src/main/resources/assets/lumber/models/item/polished_dark_oak_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_slab.json"
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_slab.json"
         ]
       }
     },
@@ -352,13 +352,13 @@
       "registry_name": "polished_acacia_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/block/polished_acacia_slab_top.json",
+          "src/main/resources/assets/lumber/models/item/polished_acacia_slab.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_slab.json",
           "src/main/resources/assets/lumber/blockstates/polished_acacia_slab.json",
-          "src/main/resources/assets/lumber/models/item/polished_acacia_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_slab_full.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedAcaciaSlabBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_acacia_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_slab_top.json"
+          "src/main/resources/assets/lumber/models/block/polished_acacia_slab_full.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedAcaciaSlabBlock.java"
         ]
       }
     },
@@ -370,13 +370,13 @@
       "registry_name": "polished_jungle_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_jungle_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_slab_top.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_slab.json",
+          "src/main/resources/assets/lumber/models/item/polished_jungle_slab.json",
           "src/main/java/net/mcreator/lumber/block/PolishedJungleSlabBlock.java",
+          "src/main/resources/assets/lumber/blockstates/polished_jungle_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_slab_top.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_slab_full.json",
-          "src/main/resources/assets/lumber/models/item/polished_jungle_slab.json"
+          "src/main/resources/assets/lumber/models/block/polished_jungle_slab_full.json"
         ]
       }
     },
@@ -390,9 +390,9 @@
         "files": [
           "src/main/resources/assets/lumber/models/item/polished_crimson_slab.json",
           "src/main/resources/assets/lumber/models/block/polished_crimson_slab_full.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_slab_top.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_slab_top.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_slab.json",
           "src/main/java/net/mcreator/lumber/block/PolishedCrimsonSlabBlock.java",
           "src/main/resources/assets/lumber/blockstates/polished_crimson_slab.json"
         ]
@@ -406,13 +406,13 @@
       "registry_name": "polished_warped_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_warped_slab.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_slab_full.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_slab.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedWarpedSlabBlock.java",
           "src/main/resources/assets/lumber/models/item/polished_warped_slab.json",
           "src/main/resources/assets/lumber/models/block/polished_warped_slab_top.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_slab.json"
+          "src/main/resources/assets/lumber/models/block/polished_warped_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_slab_full.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedWarpedSlabBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_slab.json",
+          "src/main/resources/assets/lumber/blockstates/polished_warped_slab.json"
         ]
       }
     },
@@ -424,13 +424,13 @@
       "registry_name": "polished_oak_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_oak_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_fence.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_fence.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedOakFenceBlock.java",
           "src/main/resources/assets/lumber/blockstates/polished_oak_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_fence_post.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_fence.json",
+          "src/main/resources/assets/lumber/models/item/polished_oak_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_oak_fence_inventory.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedOakFenceBlock.java"
+          "src/main/resources/assets/lumber/models/block/polished_oak_fence_post.json"
         ]
       }
     },
@@ -442,12 +442,12 @@
       "registry_name": "polished_birch_fence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PolishedBirchFenceBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_birch_fence_inventory.json",
           "src/main/resources/assets/lumber/models/item/polished_birch_fence.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_birch_fence_inventory.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedBirchFenceBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_birch_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_birch_fence_post.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_fence.json",
           "src/main/resources/assets/lumber/blockstates/polished_birch_fence.json"
         ]
       }
@@ -460,13 +460,13 @@
       "registry_name": "polished_spruce_fence",
       "metadata": {
         "files": [
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_fence.json",
           "src/main/java/net/mcreator/lumber/block/PolishedSpruceFenceBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_spruce_fence_inventory.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_post.json",
+          "src/main/resources/assets/lumber/models/item/polished_spruce_fence.json",
           "src/main/resources/assets/lumber/blockstates/polished_spruce_fence.json",
-          "src/main/resources/assets/lumber/models/item/polished_spruce_fence.json"
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_post.json"
         ]
       }
     },
@@ -478,13 +478,13 @@
       "registry_name": "polished_dark_oak_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_dark_oak_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_post.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence.json",
-          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_inventory.json",
           "src/main/java/net/mcreator/lumber/block/PolishedDarkOakFenceBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_inventory.json"
+          "src/main/resources/assets/lumber/models/item/polished_dark_oak_fence.json",
+          "src/main/resources/assets/lumber/blockstates/polished_dark_oak_fence.json"
         ]
       }
     },
@@ -496,13 +496,13 @@
       "registry_name": "polished_acacia_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_acacia_fence_inventory.json",
+          "src/main/resources/assets/lumber/models/block/polished_acacia_fence.json",
           "src/main/java/net/mcreator/lumber/block/PolishedAcaciaFenceBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_acacia_fence_inventory.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_acacia_fence_post.json",
           "src/main/resources/assets/lumber/blockstates/polished_acacia_fence.json",
-          "src/main/resources/assets/lumber/models/item/polished_acacia_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_fence.json"
+          "src/main/resources/assets/lumber/models/item/polished_acacia_fence.json"
         ]
       }
     },
@@ -514,13 +514,13 @@
       "registry_name": "polished_jungle_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_jungle_fence.json",
           "src/main/resources/assets/lumber/blockstates/polished_jungle_fence.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedJungleFenceBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_jungle_fence_inventory.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_post.json"
+          "src/main/resources/assets/lumber/models/item/polished_jungle_fence.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedJungleFenceBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_post.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence.json"
         ]
       }
     },
@@ -532,13 +532,13 @@
       "registry_name": "polished_crimson_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_crimson_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_inventory.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_fence.json",
-          "src/main/resources/assets/lumber/blockstates/polished_crimson_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_post.json",
           "src/main/resources/assets/lumber/models/item/polished_crimson_fence.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonFenceBlock.java"
+          "src/main/resources/assets/lumber/models/block/polished_crimson_fence.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_fence.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonFenceBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_inventory.json",
+          "src/main/resources/assets/lumber/blockstates/polished_crimson_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_post.json"
         ]
       }
     },
@@ -550,13 +550,13 @@
       "registry_name": "polished_warped_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_warped_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_fence.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_fence_inventory.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_fence.json",
           "src/main/resources/assets/lumber/blockstates/polished_warped_fence.json",
+          "src/main/resources/assets/lumber/models/item/polished_warped_fence.json",
           "src/main/resources/assets/lumber/models/block/polished_warped_fence_post.json",
           "src/main/java/net/mcreator/lumber/block/PolishedWarpedFenceBlock.java",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_fence.json"
+          "src/main/resources/assets/lumber/models/block/polished_warped_fence_inventory.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_fence.json"
         ]
       }
     },
@@ -568,14 +568,14 @@
       "registry_name": "polished_oak_fence_gate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_open.json",
           "src/main/resources/assets/lumber/models/item/polished_oak_fence_gate.json",
           "src/main/resources/assets/lumber/blockstates/polished_oak_fence_gate.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_wall_open.json",
           "src/main/java/net/mcreator/lumber/block/PolishedOakFenceGateBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_wall.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_open.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_oak_fence_gate.json"
+          "src/main/resources/assets/lumber/models/block/polished_oak_fence_gate_wall.json"
         ]
       }
     },
@@ -587,14 +587,14 @@
       "registry_name": "polished_birch_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedBirchFenceGateBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate_wall.json",
-          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/blockstates/polished_birch_fence_gate.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_birch_fence_gate.json",
+          "src/main/resources/assets/lumber/blockstates/polished_birch_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate_open.json",
-          "src/main/resources/assets/lumber/models/item/polished_birch_fence_gate.json"
+          "src/main/resources/assets/lumber/models/item/polished_birch_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedBirchFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_birch_fence_gate_wall.json"
         ]
       }
     },
@@ -606,14 +606,14 @@
       "registry_name": "polished_spruce_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/polished_spruce_fence_gate.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedSpruceFenceGateBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate_open.json",
-          "src/main/resources/assets/lumber/blockstates/polished_spruce_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate_wall.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedSpruceFenceGateBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_spruce_fence_gate.json"
+          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate_open.json",
+          "src/main/resources/assets/lumber/models/item/polished_spruce_fence_gate.json",
+          "src/main/resources/assets/lumber/blockstates/polished_spruce_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_spruce_fence_gate_wall.json"
         ]
       }
     },
@@ -625,14 +625,14 @@
       "registry_name": "polished_dark_oak_fence_gate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/PolishedDarkOakFenceGateBlock.java",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_dark_oak_fence_gate.json",
-          "src/main/resources/assets/lumber/models/item/polished_dark_oak_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate_wall_open.json",
           "src/main/resources/assets/lumber/blockstates/polished_dark_oak_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate_open.json",
-          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate_wall.json"
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate_wall.json",
+          "src/main/resources/assets/lumber/models/item/polished_dark_oak_fence_gate.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedDarkOakFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_dark_oak_fence_gate_wall_open.json"
         ]
       }
     },
@@ -644,13 +644,13 @@
       "registry_name": "polished_acacia_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/blockstates/polished_acacia_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_acacia_fence_gate_wall_open.json",
           "src/main/resources/assets/lumber/models/block/polished_acacia_fence_gate_wall.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedAcaciaFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_acacia_fence_gate_wall_open.json",
+          "src/main/resources/assets/lumber/models/item/polished_acacia_fence_gate.json",
+          "src/main/resources/assets/lumber/blockstates/polished_acacia_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_acacia_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_acacia_fence_gate_open.json",
-          "src/main/resources/assets/lumber/models/item/polished_acacia_fence_gate.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedAcaciaFenceGateBlock.java",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_acacia_fence_gate.json"
         ]
       }
@@ -663,14 +663,14 @@
       "registry_name": "polished_jungle_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_open.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_wall.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_jungle_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/blockstates/polished_jungle_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_open.json",
           "src/main/resources/assets/lumber/models/item/polished_jungle_fence_gate.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedJungleFenceGateBlock.java"
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedJungleFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_jungle_fence_gate_wall.json",
+          "src/main/resources/assets/lumber/blockstates/polished_jungle_fence_gate.json"
         ]
       }
     },
@@ -682,14 +682,14 @@
       "registry_name": "polished_crimson_fence_gate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/lumber/models/item/polished_crimson_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonFenceGateBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate_wall.json",
           "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate_open.json",
           "src/main/resources/assets/lumber/blockstates/polished_crimson_fence_gate.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedCrimsonFenceGateBlock.java",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate_wall.json",
-          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/models/item/polished_crimson_fence_gate.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/polished_crimson_fence_gate.json"
+          "src/main/resources/assets/lumber/models/block/polished_crimson_fence_gate_wall_open.json"
         ]
       }
     },
@@ -701,13 +701,13 @@
       "registry_name": "polished_warped_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate_wall_open.json",
-          "src/main/resources/assets/lumber/blockstates/polished_warped_fence_gate.json",
-          "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate.json",
           "src/main/resources/data/lumber/loot_tables/blocks/polished_warped_fence_gate.json",
-          "src/main/java/net/mcreator/lumber/block/PolishedWarpedFenceGateBlock.java",
-          "src/main/resources/assets/lumber/models/item/polished_warped_fence_gate.json",
           "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate_wall.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate.json",
+          "src/main/resources/assets/lumber/models/item/polished_warped_fence_gate.json",
+          "src/main/resources/assets/lumber/blockstates/polished_warped_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedWarpedFenceGateBlock.java",
           "src/main/resources/assets/lumber/models/block/polished_warped_fence_gate_open.json"
         ]
       }
@@ -720,9 +720,9 @@
       "registry_name": "lumber_bot_v_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/entity/LumberBotV1Entity.java",
+          "src/main/resources/assets/lumber/models/item/lumber_bot_v_1_spawn_egg.json",
           "src/main/java/net/mcreator/lumber/client/renderer/LumberBotV1Renderer.java",
-          "src/main/resources/assets/lumber/models/item/lumber_bot_v_1_spawn_egg.json"
+          "src/main/java/net/mcreator/lumber/entity/LumberBotV1Entity.java"
         ]
       }
     },
@@ -734,8 +734,8 @@
       "registry_name": "lumber_bot_storage",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/world/inventory/LumberBotStorageMenu.java",
-          "src/main/java/net/mcreator/lumber/client/gui/LumberBotStorageScreen.java"
+          "src/main/java/net/mcreator/lumber/client/gui/LumberBotStorageScreen.java",
+          "src/main/java/net/mcreator/lumber/world/inventory/LumberBotStorageMenu.java"
         ]
       }
     },
@@ -747,11 +747,11 @@
       "registry_name": "acacia_logs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/AcaciaLogsBlock.java",
-          "src/main/resources/assets/lumber/models/block/acacia_logs.json",
           "src/main/resources/data/lumber/loot_tables/blocks/acacia_logs.json",
+          "src/main/resources/assets/lumber/blockstates/acacia_logs.json",
+          "src/main/resources/assets/lumber/models/block/acacia_logs.json",
           "src/main/resources/assets/lumber/models/item/acacia_logs.json",
-          "src/main/resources/assets/lumber/blockstates/acacia_logs.json"
+          "src/main/java/net/mcreator/lumber/block/AcaciaLogsBlock.java"
         ]
       }
     },
@@ -763,11 +763,11 @@
       "registry_name": "oak_logs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/OakLogsBlock.java",
           "src/main/resources/assets/lumber/blockstates/oak_logs.json",
           "src/main/resources/assets/lumber/models/block/oak_logs.json",
-          "src/main/resources/assets/lumber/models/item/oak_logs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/oak_logs.json"
+          "src/main/java/net/mcreator/lumber/block/OakLogsBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_logs.json",
+          "src/main/resources/assets/lumber/models/item/oak_logs.json"
         ]
       }
     },
@@ -813,8 +813,8 @@
       "registry_name": "fire_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/item/FireAxeItem.java",
-          "src/main/resources/assets/lumber/models/item/fire_axe.json"
+          "src/main/resources/assets/lumber/models/item/fire_axe.json",
+          "src/main/java/net/mcreator/lumber/item/FireAxeItem.java"
         ]
       }
     },
@@ -860,11 +860,11 @@
       "registry_name": "spring_spruce_leaves",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/lumber/block/SpringSpruceLeavesBlock.java",
           "src/main/resources/data/lumber/loot_tables/blocks/spring_spruce_leaves.json",
-          "src/main/resources/assets/lumber/models/item/spring_spruce_leaves.json",
           "src/main/resources/assets/lumber/blockstates/spring_spruce_leaves.json",
           "src/main/resources/assets/lumber/models/block/spring_spruce_leaves.json",
-          "src/main/java/net/mcreator/lumber/block/SpringSpruceLeavesBlock.java"
+          "src/main/resources/assets/lumber/models/item/spring_spruce_leaves.json"
         ]
       }
     },
@@ -877,10 +877,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/lumber/loot_tables/blocks/flowering_spring_spruce_leaves.json",
-          "src/main/resources/assets/lumber/models/block/flowering_spring_spruce_leaves.json",
-          "src/main/resources/assets/lumber/blockstates/flowering_spring_spruce_leaves.json",
           "src/main/java/net/mcreator/lumber/block/FloweringSpringSpruceLeavesBlock.java",
-          "src/main/resources/assets/lumber/models/item/flowering_spring_spruce_leaves.json"
+          "src/main/resources/assets/lumber/models/item/flowering_spring_spruce_leaves.json",
+          "src/main/resources/assets/lumber/models/block/flowering_spring_spruce_leaves.json",
+          "src/main/resources/assets/lumber/blockstates/flowering_spring_spruce_leaves.json"
         ]
       }
     },
@@ -893,8 +893,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/lumber/worldgen/biome/spring_forest.json",
-          "src/main/resources/data/lumber/worldgen/placed_feature/spring_forest_tree.json",
-          "src/main/resources/data/lumber/worldgen/configured_feature/spring_forest_tree.json"
+          "src/main/resources/data/lumber/worldgen/configured_feature/spring_forest_tree.json",
+          "src/main/resources/data/lumber/worldgen/placed_feature/spring_forest_tree.json"
         ]
       }
     },
@@ -952,11 +952,11 @@
       "registry_name": "lightbulb_on_a_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/block/LightbulbOnAStickBlock.java",
+          "src/main/resources/assets/lumber/models/block/lightbulb_on_a_stick.json",
           "src/main/resources/data/lumber/loot_tables/blocks/lightbulb_on_a_stick.json",
-          "src/main/resources/assets/lumber/blockstates/lightbulb_on_a_stick.json",
           "src/main/resources/assets/lumber/models/item/lightbulb_on_a_stick.json",
-          "src/main/resources/assets/lumber/models/block/lightbulb_on_a_stick.json"
+          "src/main/resources/assets/lumber/blockstates/lightbulb_on_a_stick.json",
+          "src/main/java/net/mcreator/lumber/block/LightbulbOnAStickBlock.java"
         ]
       }
     },
@@ -968,8 +968,8 @@
       "registry_name": "sawblade_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/client/renderer/SawbladeProjectileRenderer.java",
           "src/main/java/net/mcreator/lumber/entity/SawbladeProjectileEntity.java",
+          "src/main/java/net/mcreator/lumber/client/renderer/SawbladeProjectileRenderer.java",
           "src/main/resources/assets/lumber/models/item/sawblade_projectile_spawn_egg.json"
         ]
       }
@@ -1016,8 +1016,8 @@
       "registry_name": "debug",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/item/debug.json",
-          "src/main/java/net/mcreator/lumber/item/DebugItem.java"
+          "src/main/java/net/mcreator/lumber/item/DebugItem.java",
+          "src/main/resources/assets/lumber/models/item/debug.json"
         ]
       }
     },
@@ -1042,10 +1042,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/lumber/models/block/oak_log_stairs.json",
-          "src/main/resources/assets/lumber/models/item/oak_log_stairs.json",
           "src/main/resources/assets/lumber/blockstates/oak_log_stairs.json",
-          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs.json",
-          "src/main/java/net/mcreator/lumber/block/OakLogStairsBlock.java"
+          "src/main/resources/assets/lumber/models/item/oak_log_stairs.json",
+          "src/main/java/net/mcreator/lumber/block/OakLogStairsBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs.json"
         ]
       }
     },
@@ -1057,13 +1057,13 @@
       "registry_name": "packed_mud_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lumber/models/block/packed_mud_slab_full.json",
-          "src/main/resources/assets/lumber/models/block/packed_mud_slab.json",
-          "src/main/resources/assets/lumber/models/item/packed_mud_slab.json",
           "src/main/resources/assets/lumber/blockstates/packed_mud_slab.json",
+          "src/main/resources/assets/lumber/models/block/packed_mud_slab.json",
+          "src/main/java/net/mcreator/lumber/block/PackedMudSlabBlock.java",
+          "src/main/resources/assets/lumber/models/item/packed_mud_slab.json",
           "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_slab.json",
           "src/main/resources/assets/lumber/models/block/packed_mud_slab_top.json",
-          "src/main/java/net/mcreator/lumber/block/PackedMudSlabBlock.java"
+          "src/main/resources/assets/lumber/models/block/packed_mud_slab_full.json"
         ]
       }
     },
@@ -1101,11 +1101,11 @@
         "files": [
           "src/main/java/net/mcreator/lumber/block/PackedMudStairsBlock.java",
           "src/main/resources/assets/lumber/models/block/packed_mud_stairs_inner.json",
-          "src/main/resources/assets/lumber/blockstates/packed_mud_stairs.json",
-          "src/main/resources/assets/lumber/models/item/packed_mud_stairs.json",
           "src/main/resources/data/lumber/loot_tables/blocks/packed_mud_stairs.json",
           "src/main/resources/assets/lumber/models/block/packed_mud_stairs.json",
-          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_outer.json"
+          "src/main/resources/assets/lumber/models/block/packed_mud_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/item/packed_mud_stairs.json",
+          "src/main/resources/assets/lumber/blockstates/packed_mud_stairs.json"
         ]
       }
     },
@@ -1134,14 +1134,30 @@
       }
     },
     {
-      "name": "StaircasePlaceProcedure",
+      "name": "OakLogStairsUD",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log_stairs_ud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/OakLogStairsUDBlock.java",
+          "src/main/resources/assets/lumber/blockstates/oak_log_stairs_ud.json",
+          "src/main/resources/assets/lumber/models/item/oak_log_stairs_ud.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs_ud.json",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_ud.json"
+        ]
+      }
+    },
+    {
+      "name": "StaircasePlace",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "staircase_place_procedure",
+      "registry_name": "staircase_place",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/procedures/StaircasePlaceProcedureProcedure.java"
+          "src/main/java/net/mcreator/lumber/procedures/StaircasePlaceProcedure.java"
         ],
         "dependencies": [
           {
@@ -1164,22 +1180,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "OakLogStairsUD",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oak_log_stairs_ud",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs_ud.json",
-          "src/main/resources/assets/lumber/models/item/oak_log_stairs_ud.json",
-          "src/main/resources/assets/lumber/blockstates/oak_log_stairs_ud.json",
-          "src/main/java/net/mcreator/lumber/block/OakLogStairsUDBlock.java",
-          "src/main/resources/assets/lumber/models/block/oak_log_stairs_ud.json"
         ]
       }
     }

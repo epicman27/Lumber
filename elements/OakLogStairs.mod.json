@@ -140,7 +140,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onBlockPlayedBy": {
-      "name": "StaircasePlaceProcedure"
+      "name": "StaircasePlace"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

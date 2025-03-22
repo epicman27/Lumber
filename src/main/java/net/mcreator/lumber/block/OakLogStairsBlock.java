@@ -31,7 +31,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.lumber.procedures.StaircasePlaceProcedureProcedure;
+import net.mcreator.lumber.procedures.StaircasePlaceProcedure;
 
 public class OakLogStairsBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -132,6 +132,6 @@ public class OakLogStairsBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
 		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		StaircasePlaceProcedureProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		StaircasePlaceProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }
