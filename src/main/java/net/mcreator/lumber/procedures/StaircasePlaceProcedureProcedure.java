@@ -9,13 +9,19 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.lumber.LumberMod;
+
 import java.util.Map;
 
 public class StaircasePlaceProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.atan2(entity.getLookAngle().y, Math.sqrt(Math.pow(entity.getLookAngle().x, 2) + Math.pow(entity.getLookAngle().z, 2))) < 0) {
+		double temp = 0;
+		LumberMod.LOGGER.info(entity.getLookAngle().y);
+		temp = Math.atan2(entity.getLookAngle().y, Math.sqrt(Math.pow(entity.getLookAngle().x, 2) + Math.pow(entity.getLookAngle().z, 2)));
+		LumberMod.LOGGER.info(temp);
+		if (temp < 0) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = Blocks.CAVE_AIR.defaultBlockState();
