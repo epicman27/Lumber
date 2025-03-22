@@ -20,6 +20,7 @@ public class StaircasePlaceProcedureProcedure {
 		double temp = 0;
 		LumberMod.LOGGER.info(entity.getLookAngle().y);
 		temp = Math.atan2(entity.getLookAngle().y, Math.sqrt(Math.pow(entity.getLookAngle().x, 2) + Math.pow(entity.getLookAngle().z, 2)));
+		LumberMod.LOGGER.info("after calc:");
 		LumberMod.LOGGER.info(temp);
 		if (temp < 0) {
 			{
