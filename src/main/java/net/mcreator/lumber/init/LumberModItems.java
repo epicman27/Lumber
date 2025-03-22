@@ -71,6 +71,7 @@ public class LumberModItems {
 	public static final RegistryObject<Item> OAK_LOG_STAIRS = block(LumberModBlocks.OAK_LOG_STAIRS);
 	public static final RegistryObject<Item> PACKED_MUD_SLAB = block(LumberModBlocks.PACKED_MUD_SLAB);
 	public static final RegistryObject<Item> PACKED_MUD_STAIRS = block(LumberModBlocks.PACKED_MUD_STAIRS);
+	public static final RegistryObject<Item> OAK_LOG_STAIRS_UD = block(LumberModBlocks.OAK_LOG_STAIRS_UD);
 
 	// Start of user code block custom items
 	// End of user code block custom items

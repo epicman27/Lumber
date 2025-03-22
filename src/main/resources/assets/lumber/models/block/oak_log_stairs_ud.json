@@ -1,0 +1,9 @@
+{
+  "parent": "lumber:custom/logstairsud",
+  "textures": {
+    "all": "lumber:block/log_stairs_oak",
+    "particle": "lumber:block/log_stairs_oak",
+    "0": "lumber:block/log_stairs_oak"
+  },
+  "render_type": "solid"
+}

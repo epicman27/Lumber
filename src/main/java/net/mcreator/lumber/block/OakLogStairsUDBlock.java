@@ -4,6 +4,7 @@ package net.mcreator.lumber.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -23,22 +24,21 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.lumber.procedures.StaircasePlaceProcedureProcedure;
+import net.mcreator.lumber.init.LumberModBlocks;
 
-public class OakLogStairsBlock extends Block implements SimpleWaterloggedBlock {
+public class OakLogStairsUDBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public OakLogStairsBlock() {
+	public OakLogStairsUDBlock() {
 		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL).setValue(WATERLOGGED, false));
 	}
@@ -62,24 +62,24 @@ public class OakLogStairsBlock extends Block implements SimpleWaterloggedBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 8, 0, 16, 16, 8), box(0, 0, 8, 16, 8, 16), box(0, 0, 0, 16, 8, 8));
-				case WALL -> Shapes.or(box(0, 8, 8, 16, 16, 16), box(0, 0, 0, 16, 8, 8), box(0, 8, 0, 16, 16, 8));
-				case CEILING -> Shapes.or(box(0, 0, 0, 16, 8, 8), box(0, 8, 8, 16, 16, 16), box(0, 8, 0, 16, 16, 8));
+				case FLOOR -> Shapes.or(box(0, 8, 0, 16, 16, 8), box(0, 8, 8, 16, 16, 16), box(0, 0, 0, 16, 8, 8));
+				case WALL -> Shapes.or(box(0, 8, 8, 16, 16, 16), box(0, 0, 8, 16, 8, 16), box(0, 8, 0, 16, 16, 8));
+				case CEILING -> Shapes.or(box(0, 0, 0, 16, 8, 8), box(0, 0, 8, 16, 8, 16), box(0, 8, 0, 16, 16, 8));
 			};
 			case NORTH -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 8, 8, 16, 16, 16), box(0, 0, 0, 16, 8, 8), box(0, 0, 8, 16, 8, 16));
-				case WALL -> Shapes.or(box(0, 8, 0, 16, 16, 8), box(0, 0, 8, 16, 8, 16), box(0, 8, 8, 16, 16, 16));
-				case CEILING -> Shapes.or(box(0, 0, 8, 16, 8, 16), box(0, 8, 0, 16, 16, 8), box(0, 8, 8, 16, 16, 16));
+				case FLOOR -> Shapes.or(box(0, 8, 8, 16, 16, 16), box(0, 8, 0, 16, 16, 8), box(0, 0, 8, 16, 8, 16));
+				case WALL -> Shapes.or(box(0, 8, 0, 16, 16, 8), box(0, 0, 0, 16, 8, 8), box(0, 8, 8, 16, 16, 16));
+				case CEILING -> Shapes.or(box(0, 0, 8, 16, 8, 16), box(0, 0, 0, 16, 8, 8), box(0, 8, 8, 16, 16, 16));
 			};
 			case EAST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(0, 8, 0, 8, 16, 16), box(8, 0, 0, 16, 8, 16), box(0, 0, 0, 8, 8, 16));
-				case WALL -> Shapes.or(box(8, 8, 0, 16, 16, 16), box(0, 0, 0, 8, 8, 16), box(0, 8, 0, 8, 16, 16));
-				case CEILING -> Shapes.or(box(0, 0, 0, 8, 8, 16), box(8, 8, 0, 16, 16, 16), box(0, 8, 0, 8, 16, 16));
+				case FLOOR -> Shapes.or(box(0, 8, 0, 8, 16, 16), box(8, 8, 0, 16, 16, 16), box(0, 0, 0, 8, 8, 16));
+				case WALL -> Shapes.or(box(8, 8, 0, 16, 16, 16), box(8, 0, 0, 16, 8, 16), box(0, 8, 0, 8, 16, 16));
+				case CEILING -> Shapes.or(box(0, 0, 0, 8, 8, 16), box(8, 0, 0, 16, 8, 16), box(0, 8, 0, 8, 16, 16));
 			};
 			case WEST -> switch (state.getValue(FACE)) {
-				case FLOOR -> Shapes.or(box(8, 8, 0, 16, 16, 16), box(0, 0, 0, 8, 8, 16), box(8, 0, 0, 16, 8, 16));
-				case WALL -> Shapes.or(box(0, 8, 0, 8, 16, 16), box(8, 0, 0, 16, 8, 16), box(8, 8, 0, 16, 16, 16));
-				case CEILING -> Shapes.or(box(8, 0, 0, 16, 8, 16), box(0, 8, 0, 8, 16, 16), box(8, 8, 0, 16, 16, 16));
+				case FLOOR -> Shapes.or(box(8, 8, 0, 16, 16, 16), box(0, 8, 0, 8, 16, 16), box(8, 0, 0, 16, 8, 16));
+				case WALL -> Shapes.or(box(0, 8, 0, 8, 16, 16), box(0, 0, 0, 8, 8, 16), box(8, 8, 0, 16, 16, 16));
+				case CEILING -> Shapes.or(box(8, 0, 0, 16, 8, 16), box(0, 0, 0, 8, 8, 16), box(8, 8, 0, 16, 16, 16));
 			};
 		};
 	}
@@ -130,8 +130,7 @@ public class OakLogStairsBlock extends Block implements SimpleWaterloggedBlock {
 	}
 
 	@Override
-	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
-		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		StaircasePlaceProcedureProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(LumberModBlocks.OAK_LOG_STAIRS.get());
 	}
 }

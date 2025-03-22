@@ -1166,6 +1166,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "OakLogStairsUD",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log_stairs_ud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_log_stairs_ud.json",
+          "src/main/resources/assets/lumber/models/item/oak_log_stairs_ud.json",
+          "src/main/resources/assets/lumber/blockstates/oak_log_stairs_ud.json",
+          "src/main/java/net/mcreator/lumber/block/OakLogStairsUDBlock.java",
+          "src/main/resources/assets/lumber/models/block/oak_log_stairs_ud.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1303,6 +1319,7 @@
       "block.lumber.packed_mud_stairs": "Packed Mud Stairs",
       "block.lumber.polished_jungle_planks": "Polished Jungle Planks",
       "block.lumber.lightbulb_on_a_stick": "Lightbulb on a Stick",
+      "block.lumber.oak_log_stairs_ud": "Oak Log Stairs",
       "block.lumber.polished_oak_fence": "Polished Oak Fence",
       "item.lumber.fire_axe": "Fire Axe",
       "block.lumber.polished_dark_oak_fence_gate": "Polished Dark Oak Fence Gate",

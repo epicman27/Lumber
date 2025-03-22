@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "lumber:block/oak_log_stairs_ud"
+    },
+    "face=floor,facing=east": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "lumber:block/oak_log_stairs_ud",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

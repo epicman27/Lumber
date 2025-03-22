@@ -54,6 +54,7 @@ import net.mcreator.lumber.block.PolishedAcaciaFenceBlock;
 import net.mcreator.lumber.block.PackedMudStairsBlock;
 import net.mcreator.lumber.block.PackedMudSlabBlock;
 import net.mcreator.lumber.block.OakLogsBlock;
+import net.mcreator.lumber.block.OakLogStairsUDBlock;
 import net.mcreator.lumber.block.OakLogStairsBlock;
 import net.mcreator.lumber.block.LightbulbOnAStickBlock;
 import net.mcreator.lumber.block.FloweringSpringSpruceLeavesBlock;
@@ -110,6 +111,7 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> OAK_LOG_STAIRS = REGISTRY.register("oak_log_stairs", () -> new OakLogStairsBlock());
 	public static final RegistryObject<Block> PACKED_MUD_SLAB = REGISTRY.register("packed_mud_slab", () -> new PackedMudSlabBlock());
 	public static final RegistryObject<Block> PACKED_MUD_STAIRS = REGISTRY.register("packed_mud_stairs", () -> new PackedMudStairsBlock());
+	public static final RegistryObject<Block> OAK_LOG_STAIRS_UD = REGISTRY.register("oak_log_stairs_ud", () -> new OakLogStairsUDBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

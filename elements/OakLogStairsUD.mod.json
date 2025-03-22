@@ -9,7 +9,7 @@
     "textureRight": "oak_logs",
     "textureBack": "oak_logs",
     "renderType": 2,
-    "customModelName": "logstairs:default",
+    "customModelName": "logstairsud:default",
     "rotationMode": 1,
     "enablePitch": true,
     "emissiveRendering": false,
@@ -34,10 +34,10 @@
       },
       {
         "mx": 0.0,
-        "my": 0.0,
+        "my": 8.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 8.0,
+        "My": 16.0,
         "Mz": 8.0,
         "subtract": false
       },
@@ -60,14 +60,10 @@
     "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": true,
-    "creativeTabs": [
-      {
-        "value": "BUILDING_BLOCKS"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:OakLogStairs"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -88,7 +84,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:OakLogStairs"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -139,9 +135,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockPlayedBy": {
-      "name": "StaircasePlaceProcedure"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
