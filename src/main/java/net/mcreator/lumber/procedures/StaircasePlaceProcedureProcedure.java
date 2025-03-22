@@ -3,12 +3,11 @@ package net.mcreator.lumber.procedures;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
-
-import net.mcreator.lumber.init.LumberModBlocks;
 
 import java.util.Map;
 
@@ -16,10 +15,10 @@ public class StaircasePlaceProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.toDegrees(entity.getLookAngle().y) < 0) {
+		if (Math.atan2(entity.getLookAngle().y, Math.sqrt(Math.pow(entity.getLookAngle().x, 2) + Math.pow(entity.getLookAngle().z, 2))) < 0) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = LumberModBlocks.OAK_LOG_STAIRS_UD.get().defaultBlockState();
+				BlockState _bs = Blocks.CAVE_AIR.defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
