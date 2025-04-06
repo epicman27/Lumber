@@ -17,18 +17,19 @@ public class LumberBotV1OnEntityTickUpdateProcedure {
 		double logx = 0;
 		double logy = 0;
 		double logz = 0;
-		sx = -3;
+		sx = -8;
 		found = false;
-		for (int index0 = 0; index0 < 6; index0++) {
-			sy = -3;
-			for (int index1 = 0; index1 < 6; index1++) {
-				sz = -3;
-				for (int index2 = 0; index2 < 6; index2++) {
+		for (int index0 = 0; index0 < 16; index0++) {
+			sy = -8;
+			for (int index1 = 0; index1 < 16; index1++) {
+				sz = -8;
+				for (int index2 = 0; index2 < 16; index2++) {
 					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == Blocks.OAK_LOG) {
 						found = true;
 						logx = x + sx;
 						logy = y + sy;
 						logz = z + sz;
+						break;
 					}
 					sz = sz + 1;
 				}
@@ -38,10 +39,7 @@ public class LumberBotV1OnEntityTickUpdateProcedure {
 		}
 		if (found == true) {
 			if (entity instanceof Mob _entity)
-				_entity.getNavigation().moveTo(logx, logy, logz, 1.2);
-		} else {
-			if (entity instanceof Mob _entity)
-				_entity.getNavigation().moveTo(x, y, z, 1);
+				_entity.getNavigation().moveTo(logx, logy, logz, 1.35);
 		}
 	}
 }

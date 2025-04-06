@@ -720,9 +720,9 @@
       "registry_name": "lumber_bot_v_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lumber/entity/LumberBotV1Entity.java",
+          "src/main/resources/assets/lumber/models/item/lumber_bot_v_1_spawn_egg.json",
           "src/main/java/net/mcreator/lumber/client/renderer/LumberBotV1Renderer.java",
-          "src/main/resources/assets/lumber/models/item/lumber_bot_v_1_spawn_egg.json"
+          "src/main/java/net/mcreator/lumber/entity/LumberBotV1Entity.java"
         ]
       }
     },
