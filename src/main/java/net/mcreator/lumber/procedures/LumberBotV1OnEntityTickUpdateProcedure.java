@@ -26,9 +26,9 @@ public class LumberBotV1OnEntityTickUpdateProcedure {
 				for (int index2 = 0; index2 < 6; index2++) {
 					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == Blocks.OAK_LOG) {
 						found = true;
-						logx = sx;
-						logy = sy;
-						logz = logz;
+						logx = x + sx;
+						logy = y + sy;
+						logz = z + sz;
 					}
 					sz = sz + 1;
 				}
