@@ -1,10 +1,12 @@
 package net.mcreator.lumber.procedures;
 
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.commands.arguments.EntityAnchorArgument;
 
 public class LumberBotV1OnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -40,6 +42,7 @@ public class LumberBotV1OnEntityTickUpdateProcedure {
 		if (found == true) {
 			if (entity instanceof Mob _entity)
 				_entity.getNavigation().moveTo(logx, logy, logz, 1.35);
+			entity.lookAt(EntityAnchorArgument.Anchor.EYES, new Vec3(logx, logy, logz));
 		}
 	}
 }
