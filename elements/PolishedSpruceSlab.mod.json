@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_spruce_planks_2",
-    "textureTop": "polished_spruce_planks_2",
+    "texture": "planks_spruce",
+    "textureTop": "planks_spruce",
     "textureLeft": "polished_spruce_planks",
-    "textureFront": "polished_spruce_planks_2",
+    "textureFront": "planks_spruce",
     "textureRight": "polished_spruce_planks",
     "textureBack": "polished_spruce_planks",
     "renderType": 11,

@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "lumber:block/polished_jungle_planks_2",
-    "up": "lumber:block/polished_jungle_planks_2",
-    "north": "lumber:block/polished_jungle_planks_2",
-    "east": "lumber:block/polished_jungle_planks_2",
-    "south": "lumber:block/polished_jungle_planks_2",
-    "west": "lumber:block/polished_jungle_planks_2",
-    "particle": "lumber:block/polished_jungle_planks_2"
+    "all": "lumber:block/planks_jungle",
+    "particle": "lumber:block/planks_jungle"
   },
   "render_type": "solid"
 }

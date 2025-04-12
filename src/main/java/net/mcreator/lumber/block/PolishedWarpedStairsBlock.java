@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class PolishedWarpedStairsBlock extends StairBlock {
 	public PolishedWarpedStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.STEM).strength(2f, 3f));
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.NETHER_WOOD).strength(2f, 3f));
 	}
 
 	@Override

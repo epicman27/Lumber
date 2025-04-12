@@ -1,8 +1,8 @@
 {
   "parent": "block/template_fence_gate_open",
   "textures": {
-    "particle": "lumber:block/polished_crimson_planks",
-    "texture": "lumber:block/polished_crimson_planks"
+    "particle": "lumber:block/planks_crimson",
+    "texture": "lumber:block/planks_crimson"
   },
   "render_type": "solid"
 }

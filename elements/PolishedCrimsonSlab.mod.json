@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_crimson_planks",
-    "textureTop": "polished_crimson_planks",
+    "texture": "planks_crimson",
+    "textureTop": "planks_crimson",
     "textureLeft": "polished_crimson_planks",
-    "textureFront": "polished_crimson_planks",
+    "textureFront": "planks_crimson",
     "textureRight": "polished_crimson_planks",
     "textureBack": "polished_crimson_planks",
     "renderType": 11,
@@ -85,7 +85,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "HYPHAE"
+      "value": "NETHER_WOOD"
     },
     "breakSound": {
       "value": ""

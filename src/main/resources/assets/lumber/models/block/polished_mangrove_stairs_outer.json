@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "lumber:block/planks_mangrove",
+    "bottom": "lumber:block/planks_mangrove",
+    "top": "lumber:block/planks_mangrove",
+    "side": "lumber:block/planks_mangrove"
+  },
+  "render_type": "solid"
+}

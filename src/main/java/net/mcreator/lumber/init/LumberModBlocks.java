@@ -26,6 +26,9 @@ import net.mcreator.lumber.block.PolishedOakSlabBlock;
 import net.mcreator.lumber.block.PolishedOakPlanksBlock;
 import net.mcreator.lumber.block.PolishedOakFenceGateBlock;
 import net.mcreator.lumber.block.PolishedOakFenceBlock;
+import net.mcreator.lumber.block.PolishedMangroveStairsBlock;
+import net.mcreator.lumber.block.PolishedMangroveSlabBlock;
+import net.mcreator.lumber.block.PolishedMangrovePlanksBlock;
 import net.mcreator.lumber.block.PolishedJungleStairsBlock;
 import net.mcreator.lumber.block.PolishedJungleSlabBlock;
 import net.mcreator.lumber.block.PolishedJunglePlanksBlock;
@@ -53,6 +56,7 @@ import net.mcreator.lumber.block.PolishedAcaciaFenceGateBlock;
 import net.mcreator.lumber.block.PolishedAcaciaFenceBlock;
 import net.mcreator.lumber.block.PackedMudStairsBlock;
 import net.mcreator.lumber.block.PackedMudSlabBlock;
+import net.mcreator.lumber.block.OakStumpBlock;
 import net.mcreator.lumber.block.OakLogsBlock;
 import net.mcreator.lumber.block.OakLogStairsUDBlock;
 import net.mcreator.lumber.block.OakLogStairsBlock;
@@ -112,6 +116,10 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> PACKED_MUD_SLAB = REGISTRY.register("packed_mud_slab", () -> new PackedMudSlabBlock());
 	public static final RegistryObject<Block> PACKED_MUD_STAIRS = REGISTRY.register("packed_mud_stairs", () -> new PackedMudStairsBlock());
 	public static final RegistryObject<Block> OAK_LOG_STAIRS_UD = REGISTRY.register("oak_log_stairs_ud", () -> new OakLogStairsUDBlock());
+	public static final RegistryObject<Block> OAK_STUMP = REGISTRY.register("oak_stump", () -> new OakStumpBlock());
+	public static final RegistryObject<Block> POLISHED_MANGROVE_PLANKS = REGISTRY.register("polished_mangrove_planks", () -> new PolishedMangrovePlanksBlock());
+	public static final RegistryObject<Block> POLISHED_MANGROVE_STAIRS = REGISTRY.register("polished_mangrove_stairs", () -> new PolishedMangroveStairsBlock());
+	public static final RegistryObject<Block> POLISHED_MANGROVE_SLAB = REGISTRY.register("polished_mangrove_slab", () -> new PolishedMangroveSlabBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

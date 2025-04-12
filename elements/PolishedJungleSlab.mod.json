@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_jungle_planks_2",
-    "textureTop": "polished_jungle_planks_2",
+    "texture": "planks_jungle",
+    "textureTop": "planks_jungle",
     "textureLeft": "polished_jungle_planks",
-    "textureFront": "polished_jungle_planks_2",
+    "textureFront": "planks_jungle",
     "textureRight": "polished_jungle_planks",
     "textureBack": "polished_jungle_planks",
     "renderType": 11,

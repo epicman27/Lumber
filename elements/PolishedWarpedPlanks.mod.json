@@ -2,14 +2,14 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_warped_planks",
+    "texture": "planks_warped",
     "textureTop": "polished_warped_planks",
     "textureLeft": "polished_warped_planks",
     "textureFront": "polished_warped_planks",
     "textureRight": "polished_warped_planks",
     "textureBack": "polished_warped_planks",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -84,7 +84,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "HYPHAE"
+      "value": "NETHER_WOOD"
     },
     "breakSound": {
       "value": ""

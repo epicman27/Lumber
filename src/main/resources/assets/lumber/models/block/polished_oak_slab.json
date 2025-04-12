@@ -1,10 +1,10 @@
 {
   "parent": "block/slab",
   "textures": {
-    "particle": "lumber:block/polished_oak_planks",
-    "bottom": "lumber:block/polished_oak_planks",
-    "top": "lumber:block/polished_oak_planks",
-    "side": "lumber:block/polished_oak_planks"
+    "particle": "lumber:block/planks_oak",
+    "bottom": "lumber:block/planks_oak",
+    "top": "lumber:block/planks_oak",
+    "side": "lumber:block/planks_oak"
   },
   "render_type": "solid"
 }

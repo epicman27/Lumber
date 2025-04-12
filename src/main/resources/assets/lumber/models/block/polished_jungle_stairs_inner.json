@@ -1,10 +1,10 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "particle": "lumber:block/polished_jungle_planks_2",
-    "bottom": "lumber:block/polished_jungle_planks_2",
-    "top": "lumber:block/polished_jungle_planks_2",
-    "side": "lumber:block/polished_jungle_planks_2"
+    "particle": "lumber:block/planks_jungle",
+    "bottom": "lumber:block/planks_jungle",
+    "top": "lumber:block/planks_jungle",
+    "side": "lumber:block/planks_jungle"
   },
   "render_type": "solid"
 }

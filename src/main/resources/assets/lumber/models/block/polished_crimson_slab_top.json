@@ -1,10 +1,10 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "particle": "lumber:block/polished_crimson_planks",
-    "bottom": "lumber:block/polished_crimson_planks",
-    "top": "lumber:block/polished_crimson_planks",
-    "side": "lumber:block/polished_crimson_planks"
+    "particle": "lumber:block/planks_crimson",
+    "bottom": "lumber:block/planks_crimson",
+    "top": "lumber:block/planks_crimson",
+    "side": "lumber:block/planks_crimson"
   },
   "render_type": "solid"
 }

@@ -21,38 +21,7 @@ public class LumberModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(LumberModBlocks.POLISHED_OAK_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_BIRCH_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_ACACIA_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_WARPED_PLANKS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_OAK_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_BIRCH_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_ACACIA_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_WARPED_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_OAK_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_BIRCH_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_ACACIA_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.POLISHED_WARPED_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.ACACIA_LOGS.get().asItem());
-			tabData.accept(LumberModBlocks.OAK_LOGS.get().asItem());
-			tabData.accept(LumberModBlocks.LIGHTBULB_ON_A_STICK.get().asItem());
-			tabData.accept(LumberModBlocks.OAK_LOG_STAIRS.get().asItem());
-			tabData.accept(LumberModBlocks.PACKED_MUD_SLAB.get().asItem());
-			tabData.accept(LumberModBlocks.PACKED_MUD_STAIRS.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_BIRCH_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_FENCE.get().asItem());
@@ -77,6 +46,41 @@ public class LumberModTabs {
 			tabData.accept(LumberModItems.SAWBLADE_PROJECTILE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LumberModItems.FIRE_AXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(LumberModBlocks.POLISHED_OAK_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_OAK_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_OAK_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_BIRCH_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_BIRCH_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_BIRCH_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_SPRUCE_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_DARK_OAK_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_ACACIA_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_ACACIA_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_ACACIA_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_JUNGLE_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CRIMSON_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_WARPED_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_WARPED_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_WARPED_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_MANGROVE_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_MANGROVE_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_MANGROVE_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.ACACIA_LOGS.get().asItem());
+			tabData.accept(LumberModBlocks.OAK_LOGS.get().asItem());
+			tabData.accept(LumberModBlocks.LIGHTBULB_ON_A_STICK.get().asItem());
+			tabData.accept(LumberModBlocks.OAK_LOG_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.PACKED_MUD_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.PACKED_MUD_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.OAK_STUMP.get().asItem());
 		}
 	}
 }

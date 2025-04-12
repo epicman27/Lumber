@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_acacia_planks_2",
-    "textureTop": "polished_acacia_planks_2",
+    "texture": "planks_acacia",
+    "textureTop": "planks_acacia",
     "textureLeft": "polished_acacia_planks",
-    "textureFront": "polished_acacia_planks_2",
+    "textureFront": "planks_acacia",
     "textureRight": "polished_acacia_planks",
     "textureBack": "polished_acacia_planks",
     "renderType": 11,

@@ -1,8 +1,8 @@
 {
   "parent": "block/template_fence_gate_wall",
   "textures": {
-    "particle": "lumber:block/polished_warped_planks",
-    "texture": "lumber:block/polished_warped_planks"
+    "particle": "lumber:block/planks_warped",
+    "texture": "lumber:block/planks_warped"
   },
   "render_type": "solid"
 }

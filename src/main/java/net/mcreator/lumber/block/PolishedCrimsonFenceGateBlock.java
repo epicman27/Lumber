@@ -9,6 +9,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class PolishedCrimsonFenceGateBlock extends FenceGateBlock {
 	public PolishedCrimsonFenceGateBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.STEM).strength(2f, 3f).forceSolidOn(), WoodType.OAK);
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.NETHER_WOOD).strength(2f, 3f).forceSolidOn(), WoodType.OAK);
 	}
 }

@@ -1,10 +1,10 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "particle": "lumber:block/polished_birch_planks",
-    "bottom": "lumber:block/polished_birch_planks",
-    "top": "lumber:block/polished_birch_planks",
-    "side": "lumber:block/polished_birch_planks"
+    "particle": "lumber:block/planks_birch",
+    "bottom": "lumber:block/planks_birch",
+    "top": "lumber:block/planks_birch",
+    "side": "lumber:block/planks_birch"
   },
   "render_type": "solid"
 }

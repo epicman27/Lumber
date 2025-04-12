@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class PolishedWarpedPlanksBlock extends Block {
 	public PolishedWarpedPlanksBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.STEM).strength(2f, 3f));
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.NETHER_WOOD).strength(2f, 3f));
 	}
 
 	@Override

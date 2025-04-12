@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_dark_oak_planks",
-    "textureTop": "polished_dark_oak_planks",
+    "texture": "planks_dark_oak",
+    "textureTop": "planks_dark_oak",
     "textureLeft": "polished_dark_oak_planks",
-    "textureFront": "polished_dark_oak_planks",
+    "textureFront": "planks_dark_oak",
     "textureRight": "polished_dark_oak_planks",
     "textureBack": "polished_dark_oak_planks",
     "renderType": 11,

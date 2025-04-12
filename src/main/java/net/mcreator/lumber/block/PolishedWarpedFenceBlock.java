@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.FenceBlock;
 
 public class PolishedWarpedFenceBlock extends FenceBlock {
 	public PolishedWarpedFenceBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.STEM).strength(2f, 3f).forceSolidOn());
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.NETHER_WOOD).strength(2f, 3f).forceSolidOn());
 	}
 }

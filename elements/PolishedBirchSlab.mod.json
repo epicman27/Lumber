@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "polished_birch_planks",
-    "textureTop": "polished_birch_planks",
+    "texture": "planks_birch",
+    "textureTop": "planks_birch",
     "textureLeft": "polished_birch_planks",
-    "textureFront": "polished_birch_planks",
+    "textureFront": "planks_birch",
     "textureRight": "polished_birch_planks",
     "textureBack": "polished_birch_planks",
     "renderType": 11,

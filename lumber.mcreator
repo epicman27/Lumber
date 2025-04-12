@@ -1182,6 +1182,74 @@
           "src/main/resources/assets/lumber/models/block/oak_log_stairs_ud.json"
         ]
       }
+    },
+    {
+      "name": "OakStump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_stump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/blockstates/oak_stump.json",
+          "src/main/resources/assets/lumber/models/item/oak_stump.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/oak_stump.json",
+          "src/main/resources/assets/lumber/models/block/oak_stump.json",
+          "src/main/java/net/mcreator/lumber/block/OakStumpBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedMangrovePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_mangrove_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/item/polished_mangrove_planks.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_mangrove_planks.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedMangrovePlanksBlock.java",
+          "src/main/resources/assets/lumber/blockstates/polished_mangrove_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedMangroveStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_mangrove_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/PolishedMangroveStairsBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_stairs_inner.json",
+          "src/main/resources/assets/lumber/blockstates/polished_mangrove_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_stairs.json",
+          "src/main/resources/assets/lumber/models/item/polished_mangrove_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_stairs_outer.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_mangrove_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedMangroveSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_mangrove_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_mangrove_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_slab_full.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_slab_top.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedMangroveSlabBlock.java",
+          "src/main/resources/assets/lumber/models/item/polished_mangrove_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_mangrove_slab.json",
+          "src/main/resources/assets/lumber/blockstates/polished_mangrove_slab.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1195,6 +1263,7 @@
       "~CUSTOM:SpringForest"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedMangroveSlab",
       "~CUSTOM:PackedMudSlab",
       "~CUSTOM:PolishedWarpedSlab",
       "~CUSTOM:PolishedCrimsonSlab",
@@ -1219,6 +1288,7 @@
       "CUSTOM:FireAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PolishedMangroveStairs",
       "~CUSTOM:PackedMudStairs",
       "~CUSTOM:PolishedWarpedStairs",
       "~CUSTOM:PolishedCrimsonStairs",
@@ -1298,7 +1368,44 @@
       "~CUSTOM:SpringForest"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "BUILDING_BLOCKS": [
+      "PolishedOakPlanks",
+      "PolishedOakStairs",
+      "PolishedOakSlab",
+      "PolishedBirchPlanks",
+      "PolishedBirchStairs",
+      "PolishedBirchSlab",
+      "PolishedSprucePlanks",
+      "PolishedSpruceStairs",
+      "PolishedSpruceSlab",
+      "PolishedDarkOakPlanks",
+      "PolishedDarkOakStairs",
+      "PolishedDarkOakSlab",
+      "PolishedAcaciaPlanks",
+      "PolishedAcaciaStairs",
+      "PolishedAcaciaSlab",
+      "PolishedJunglePlanks",
+      "PolishedJungleStairs",
+      "PolishedJungleSlab",
+      "PolishedCrimsonPlanks",
+      "PolishedCrimsonStairs",
+      "PolishedCrimsonSlab",
+      "PolishedWarpedPlanks",
+      "PolishedWarpedStairs",
+      "PolishedWarpedSlab",
+      "PolishedMangrovePlanks",
+      "PolishedMangroveStairs",
+      "PolishedMangroveSlab",
+      "AcaciaLogs",
+      "OakLogs",
+      "LightbulbOnAStick",
+      "OakLogStairs",
+      "PackedMudStairs",
+      "PackedMudSlab",
+      "OakStump"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.lumber.polished_dark_oak_planks": "Polished Dark Oak Planks",
@@ -1308,8 +1415,8 @@
       "block.lumber.polished_birch_fence_gate": "Polished Birch Fence Gate",
       "block.lumber.polished_warped_stairs": "Polished Warped Stairs",
       "block.lumber.polished_oak_slab": "Polished Oak Slab",
-      "block.lumber.polished_acacia_fence_gate": "Polished Acacia Fence Gate",
       "death.attack.saw.player": "%1$s was sawn in half whilst escaping %2$s",
+      "block.lumber.polished_acacia_fence_gate": "Polished Acacia Fence Gate",
       "death.attack.saw.item": "%1$s was cut in half by %2$s using %3$s",
       "block.lumber.polished_birch_fence": "Polished Birch Fence",
       "block.lumber.polished_warped_planks": "Polished Warped Planks",
@@ -1330,16 +1437,20 @@
       "block.lumber.polished_birch_slab": "Polished Birch Slab",
       "entity.lumber.lumber_bot_v_1": "Lumber Bot 1.0",
       "block.lumber.polished_warped_slab": "Polished Warped Slab",
+      "block.lumber.oak_stump": "Oak Stump",
       "death.attack.saw": "%1$s was sawn",
       "block.lumber.polished_birch_stairs": "Polished Birch Stairs",
       "block.lumber.polished_warped_fence": "Polished Warped Fence",
       "block.lumber.polished_spruce_slab": "Polished Spruce Slab",
+      "block.lumber.polished_mangrove_planks": "Polished Mangrove Planks",
       "item.lumber.sawblade_projectile_spawn_egg": "Sawblade Projectile Spawn Egg",
       "block.lumber.polished_crimson_fence": "Polished Crimson Fence",
       "block.lumber.polished_jungle_stairs": "Polished Jungle Stairs",
       "block.lumber.polished_spruce_fence_gate": "Polished Spruce Fence Gate",
       "block.lumber.flowering_spring_spruce_leaves": "Flowering Spring Spruce Leaves",
+      "block.lumber.polished_mangrove_stairs": "Polished Mangrove Stairs",
       "block.lumber.oak_log_stairs": "Oak Log Stairs",
+      "block.lumber.polished_mangrove_slab": "Polished Mangrove Slab",
       "block.lumber.polished_spruce_stairs": "Polished Spruce Stairs",
       "block.lumber.oak_logs": "Oak Log Bundle",
       "block.lumber.polished_oak_fence_gate": "Polished Oak Fence Gate",

@@ -1,0 +1,9 @@
+{
+  "parent": "lumber:custom/stump",
+  "textures": {
+    "all": "lumber:block/oakstump",
+    "particle": "lumber:block/oakstump",
+    "0": "lumber:block/oakstump"
+  },
+  "render_type": "cutout"
+}
