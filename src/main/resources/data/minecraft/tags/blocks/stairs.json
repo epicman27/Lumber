@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "lumber:polished_cypress_stairs",
+    "lumber:cypress_stairs",
     "lumber:polished_mangrove_stairs",
     "lumber:packed_mud_stairs",
     "lumber:polished_warped_stairs",

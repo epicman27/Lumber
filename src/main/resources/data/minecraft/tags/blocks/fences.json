@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "lumber:polished_cypress_fence",
+    "lumber:cypress_fence",
     "lumber:polished_oak_fence",
     "lumber:polished_birch_fence",
     "lumber:polished_spruce_fence",

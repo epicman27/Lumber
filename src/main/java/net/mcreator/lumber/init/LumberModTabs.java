@@ -46,6 +46,8 @@ public class LumberModTabs {
 			tabData.accept(LumberModItems.SAWBLADE_PROJECTILE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LumberModItems.FIRE_AXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(LumberModItems.HEART_OF_THE_FOREST.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_PLANKS.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_OAK_STAIRS.get().asItem());
@@ -81,6 +83,17 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.PACKED_MUD_STAIRS.get().asItem());
 			tabData.accept(LumberModBlocks.PACKED_MUD_SLAB.get().asItem());
 			tabData.accept(LumberModBlocks.OAK_STUMP.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_FENCE.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_FENCE_GATE.get().asItem());
+			tabData.accept(LumberModBlocks.CYPRESS_PRESSURE_PLATE.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_PLANKS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_STAIRS.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_SLAB.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_FENCE.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_FENCE_GATE.get().asItem());
 		}
 	}
 }

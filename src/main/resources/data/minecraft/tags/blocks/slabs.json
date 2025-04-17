@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "lumber:polished_cypress_slab",
+    "lumber:cypress_slab",
     "lumber:polished_mangrove_slab",
     "lumber:packed_mud_slab",
     "lumber:polished_warped_slab",

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "lumber:block/planks_cypress",
+    "bottom": "lumber:block/planks_cypress",
+    "top": "lumber:block/planks_cypress",
+    "side": "lumber:block/planks_cypress"
+  },
+  "render_type": "solid"
+}

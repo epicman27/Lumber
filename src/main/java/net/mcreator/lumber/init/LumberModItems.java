@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lumber.item.HeartOfTheForestItem;
 import net.mcreator.lumber.item.FireAxeItem;
 import net.mcreator.lumber.item.DebugItem;
 import net.mcreator.lumber.LumberMod;
@@ -76,6 +77,19 @@ public class LumberModItems {
 	public static final RegistryObject<Item> POLISHED_MANGROVE_PLANKS = block(LumberModBlocks.POLISHED_MANGROVE_PLANKS);
 	public static final RegistryObject<Item> POLISHED_MANGROVE_STAIRS = block(LumberModBlocks.POLISHED_MANGROVE_STAIRS);
 	public static final RegistryObject<Item> POLISHED_MANGROVE_SLAB = block(LumberModBlocks.POLISHED_MANGROVE_SLAB);
+	public static final RegistryObject<Item> LUMBER_BOT_TEST_SPAWN_EGG = REGISTRY.register("lumber_bot_test_spawn_egg", () -> new ForgeSpawnEggItem(LumberModEntities.LUMBER_BOT_TEST, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CYPRESS_PLANKS = block(LumberModBlocks.CYPRESS_PLANKS);
+	public static final RegistryObject<Item> CYPRESS_STAIRS = block(LumberModBlocks.CYPRESS_STAIRS);
+	public static final RegistryObject<Item> CYPRESS_SLAB = block(LumberModBlocks.CYPRESS_SLAB);
+	public static final RegistryObject<Item> CYPRESS_FENCE = block(LumberModBlocks.CYPRESS_FENCE);
+	public static final RegistryObject<Item> CYPRESS_FENCE_GATE = block(LumberModBlocks.CYPRESS_FENCE_GATE);
+	public static final RegistryObject<Item> CYPRESS_PRESSURE_PLATE = block(LumberModBlocks.CYPRESS_PRESSURE_PLATE);
+	public static final RegistryObject<Item> POLISHED_CYPRESS_PLANKS = block(LumberModBlocks.POLISHED_CYPRESS_PLANKS);
+	public static final RegistryObject<Item> POLISHED_CYPRESS_STAIRS = block(LumberModBlocks.POLISHED_CYPRESS_STAIRS);
+	public static final RegistryObject<Item> POLISHED_CYPRESS_SLAB = block(LumberModBlocks.POLISHED_CYPRESS_SLAB);
+	public static final RegistryObject<Item> POLISHED_CYPRESS_FENCE = block(LumberModBlocks.POLISHED_CYPRESS_FENCE);
+	public static final RegistryObject<Item> POLISHED_CYPRESS_FENCE_GATE = block(LumberModBlocks.POLISHED_CYPRESS_FENCE_GATE);
+	public static final RegistryObject<Item> HEART_OF_THE_FOREST = REGISTRY.register("heart_of_the_forest", () -> new HeartOfTheForestItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

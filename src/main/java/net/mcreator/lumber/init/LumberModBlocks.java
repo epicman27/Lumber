@@ -39,6 +39,11 @@ import net.mcreator.lumber.block.PolishedDarkOakSlabBlock;
 import net.mcreator.lumber.block.PolishedDarkOakPlanksBlock;
 import net.mcreator.lumber.block.PolishedDarkOakFenceGateBlock;
 import net.mcreator.lumber.block.PolishedDarkOakFenceBlock;
+import net.mcreator.lumber.block.PolishedCypressStairsBlock;
+import net.mcreator.lumber.block.PolishedCypressSlabBlock;
+import net.mcreator.lumber.block.PolishedCypressPlanksBlock;
+import net.mcreator.lumber.block.PolishedCypressFenceGateBlock;
+import net.mcreator.lumber.block.PolishedCypressFenceBlock;
 import net.mcreator.lumber.block.PolishedCrimsonStairsBlock;
 import net.mcreator.lumber.block.PolishedCrimsonSlabBlock;
 import net.mcreator.lumber.block.PolishedCrimsonPlanksBlock;
@@ -62,6 +67,12 @@ import net.mcreator.lumber.block.OakLogStairsUDBlock;
 import net.mcreator.lumber.block.OakLogStairsBlock;
 import net.mcreator.lumber.block.LightbulbOnAStickBlock;
 import net.mcreator.lumber.block.FloweringSpringSpruceLeavesBlock;
+import net.mcreator.lumber.block.CypressStairsBlock;
+import net.mcreator.lumber.block.CypressSlabBlock;
+import net.mcreator.lumber.block.CypressPressurePlateBlock;
+import net.mcreator.lumber.block.CypressPlanksBlock;
+import net.mcreator.lumber.block.CypressFenceGateBlock;
+import net.mcreator.lumber.block.CypressFenceBlock;
 import net.mcreator.lumber.block.AcaciaLogsBlock;
 import net.mcreator.lumber.LumberMod;
 
@@ -120,6 +131,17 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> POLISHED_MANGROVE_PLANKS = REGISTRY.register("polished_mangrove_planks", () -> new PolishedMangrovePlanksBlock());
 	public static final RegistryObject<Block> POLISHED_MANGROVE_STAIRS = REGISTRY.register("polished_mangrove_stairs", () -> new PolishedMangroveStairsBlock());
 	public static final RegistryObject<Block> POLISHED_MANGROVE_SLAB = REGISTRY.register("polished_mangrove_slab", () -> new PolishedMangroveSlabBlock());
+	public static final RegistryObject<Block> CYPRESS_PLANKS = REGISTRY.register("cypress_planks", () -> new CypressPlanksBlock());
+	public static final RegistryObject<Block> CYPRESS_STAIRS = REGISTRY.register("cypress_stairs", () -> new CypressStairsBlock());
+	public static final RegistryObject<Block> CYPRESS_SLAB = REGISTRY.register("cypress_slab", () -> new CypressSlabBlock());
+	public static final RegistryObject<Block> CYPRESS_FENCE = REGISTRY.register("cypress_fence", () -> new CypressFenceBlock());
+	public static final RegistryObject<Block> CYPRESS_FENCE_GATE = REGISTRY.register("cypress_fence_gate", () -> new CypressFenceGateBlock());
+	public static final RegistryObject<Block> CYPRESS_PRESSURE_PLATE = REGISTRY.register("cypress_pressure_plate", () -> new CypressPressurePlateBlock());
+	public static final RegistryObject<Block> POLISHED_CYPRESS_PLANKS = REGISTRY.register("polished_cypress_planks", () -> new PolishedCypressPlanksBlock());
+	public static final RegistryObject<Block> POLISHED_CYPRESS_STAIRS = REGISTRY.register("polished_cypress_stairs", () -> new PolishedCypressStairsBlock());
+	public static final RegistryObject<Block> POLISHED_CYPRESS_SLAB = REGISTRY.register("polished_cypress_slab", () -> new PolishedCypressSlabBlock());
+	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE = REGISTRY.register("polished_cypress_fence", () -> new PolishedCypressFenceBlock());
+	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE_GATE = REGISTRY.register("polished_cypress_fence_gate", () -> new PolishedCypressFenceGateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

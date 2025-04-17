@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lumber:block/cypress_planks",
+    "particle": "lumber:block/cypress_planks"
+  },
+  "render_type": "solid"
+}

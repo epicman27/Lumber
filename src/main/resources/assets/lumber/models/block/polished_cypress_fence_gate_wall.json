@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "lumber:block/planks_cypress",
+    "texture": "lumber:block/planks_cypress"
+  },
+  "render_type": "solid"
+}

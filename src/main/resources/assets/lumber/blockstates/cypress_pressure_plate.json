@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lumber:block/cypress_pressure_plate"
+    },
+    "powered=true": {
+      "model": "lumber:block/cypress_pressure_plate_down"
+    }
+  }
+}

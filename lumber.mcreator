@@ -1250,6 +1250,229 @@
           "src/main/resources/assets/lumber/blockstates/polished_mangrove_slab.json"
         ]
       }
+    },
+    {
+      "name": "LumberBotTest",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumber_bot_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/entity/model/LumberBotTestModel.java",
+          "src/main/resources/assets/lumber/models/item/lumber_bot_test_spawn_egg.json",
+          "src/main/java/net/mcreator/lumber/entity/LumberBotTestEntity.java",
+          "src/main/java/net/mcreator/lumber/client/renderer/LumberBotTestRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "CypressPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/cypress_planks.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_planks.json",
+          "src/main/resources/assets/lumber/models/item/cypress_planks.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_planks.json",
+          "src/main/java/net/mcreator/lumber/block/CypressPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CypressStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/cypress_stairs.json",
+          "src/main/java/net/mcreator/lumber/block/CypressStairsBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_stairs.json",
+          "src/main/resources/assets/lumber/models/block/cypress_stairs_inner.json",
+          "src/main/resources/assets/lumber/models/item/cypress_stairs.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_stairs.json",
+          "src/main/resources/assets/lumber/models/block/cypress_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "CypressSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/CypressSlabBlock.java",
+          "src/main/resources/assets/lumber/models/item/cypress_slab.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_slab.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_slab.json",
+          "src/main/resources/assets/lumber/models/block/cypress_slab_full.json",
+          "src/main/resources/assets/lumber/models/block/cypress_slab.json",
+          "src/main/resources/assets/lumber/models/block/cypress_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "CypressFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/CypressFenceBlock.java",
+          "src/main/resources/assets/lumber/models/block/cypress_fence_inventory.json",
+          "src/main/resources/assets/lumber/models/block/cypress_fence_post.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_fence.json",
+          "src/main/resources/assets/lumber/models/block/cypress_fence.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_fence.json",
+          "src/main/resources/assets/lumber/models/item/cypress_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "CypressFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/cypress_fence_gate_wall.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/cypress_fence_gate_open.json",
+          "src/main/java/net/mcreator/lumber/block/CypressFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/item/cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/cypress_fence_gate_wall_open.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "CypressPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/item/cypress_pressure_plate.json",
+          "src/main/java/net/mcreator/lumber/block/CypressPressurePlateBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/cypress_pressure_plate.json",
+          "src/main/resources/assets/lumber/blockstates/cypress_pressure_plate.json",
+          "src/main/resources/assets/lumber/models/block/cypress_pressure_plate_down.json",
+          "src/main/resources/assets/lumber/models/block/cypress_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedCypressPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_cypress_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/polished_cypress_planks.json",
+          "src/main/resources/assets/lumber/blockstates/polished_cypress_planks.json",
+          "src/main/resources/assets/lumber/models/item/polished_cypress_planks.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCypressPlanksBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_cypress_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedCypressStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_cypress_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_cypress_stairs.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_stairs_outer.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_stairs_inner.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_stairs.json",
+          "src/main/resources/assets/lumber/blockstates/polished_cypress_stairs.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCypressStairsBlock.java",
+          "src/main/resources/assets/lumber/models/item/polished_cypress_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedCypressSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_cypress_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/block/PolishedCypressSlabBlock.java",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_cypress_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_slab_top.json",
+          "src/main/resources/assets/lumber/blockstates/polished_cypress_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_slab_full.json",
+          "src/main/resources/assets/lumber/models/item/polished_cypress_slab.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedCypressFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_cypress_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/blockstates/polished_cypress_fence.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_cypress_fence.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCypressFenceBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence.json",
+          "src/main/resources/assets/lumber/models/item/polished_cypress_fence.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_post.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedCypressFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_cypress_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/lumber/block/PolishedCypressFenceGateBlock.java",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_gate_open.json",
+          "src/main/resources/data/lumber/loot_tables/blocks/polished_cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/blockstates/polished_cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/item/polished_cypress_fence_gate.json",
+          "src/main/resources/assets/lumber/models/block/polished_cypress_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartOfTheForest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_the_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lumber/item/HeartOfTheForestItem.java",
+          "src/main/resources/assets/lumber/models/item/heart_of_the_forest.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1263,6 +1486,8 @@
       "~CUSTOM:SpringForest"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedCypressSlab",
+      "~CUSTOM:CypressSlab",
       "~CUSTOM:PolishedMangroveSlab",
       "~CUSTOM:PackedMudSlab",
       "~CUSTOM:PolishedWarpedSlab",
@@ -1275,6 +1500,8 @@
       "~CUSTOM:PolishedOakSlab"
     ],
     "BLOCKS:minecraft:fences": [
+      "~CUSTOM:PolishedCypressFence",
+      "~CUSTOM:CypressFence",
       "CUSTOM:PolishedOakFence",
       "CUSTOM:PolishedBirchFence",
       "CUSTOM:PolishedSpruceFence",
@@ -1288,6 +1515,8 @@
       "CUSTOM:FireAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PolishedCypressStairs",
+      "~CUSTOM:CypressStairs",
       "~CUSTOM:PolishedMangroveStairs",
       "~CUSTOM:PackedMudStairs",
       "~CUSTOM:PolishedWarpedStairs",
@@ -1403,7 +1632,18 @@
       "OakLogStairs",
       "PackedMudStairs",
       "PackedMudSlab",
-      "OakStump"
+      "OakStump",
+      "CypressPlanks",
+      "CypressStairs",
+      "CypressSlab",
+      "CypressFence",
+      "CypressFenceGate",
+      "CypressPressurePlate",
+      "PolishedCypressPlanks",
+      "PolishedCypressStairs",
+      "PolishedCypressSlab",
+      "PolishedCypressFence",
+      "PolishedCypressFenceGate"
     ]
   },
   "language_map": {
@@ -1415,18 +1655,23 @@
       "block.lumber.polished_birch_fence_gate": "Polished Birch Fence Gate",
       "block.lumber.polished_warped_stairs": "Polished Warped Stairs",
       "block.lumber.polished_oak_slab": "Polished Oak Slab",
+      "block.lumber.cypress_fence": "Cypress Fence",
       "block.lumber.polished_acacia_fence_gate": "Polished Acacia Fence Gate",
       "death.attack.saw.player": "%1$s was sawn in half whilst escaping %2$s",
       "death.attack.saw.item": "%1$s was cut in half by %2$s using %3$s",
       "block.lumber.polished_birch_fence": "Polished Birch Fence",
       "block.lumber.polished_warped_planks": "Polished Warped Planks",
+      "block.lumber.polished_cypress_slab": "Polished Cypress Slab",
       "block.lumber.polished_spruce_planks": "Polished Spruce Planks",
       "gui.lumber.lumber_bot_storage.label_lumber_storage": "Lumber Storage",
       "block.lumber.polished_acacia_slab": "Polished Acacia Slab",
       "block.lumber.packed_mud_stairs": "Packed Mud Stairs",
       "block.lumber.polished_jungle_planks": "Polished Jungle Planks",
       "block.lumber.lightbulb_on_a_stick": "Lightbulb on a Stick",
+      "item.lumber.heart_of_the_forest": "Heart of the Forest",
       "block.lumber.oak_log_stairs_ud": "Oak Log Stairs",
+      "block.lumber.cypress_slab": "Cypress Slab",
+      "item.lumber.lumber_bot_test_spawn_egg": "Lumber Bot Test Spawn Egg",
       "block.lumber.polished_oak_fence": "Polished Oak Fence",
       "item.lumber.fire_axe": "Fire Axe",
       "block.lumber.polished_dark_oak_fence_gate": "Polished Dark Oak Fence Gate",
@@ -1438,15 +1683,19 @@
       "entity.lumber.lumber_bot_v_1": "Lumber Bot 1.0",
       "block.lumber.polished_warped_slab": "Polished Warped Slab",
       "block.lumber.oak_stump": "Oak Stump",
+      "block.lumber.cypress_pressure_plate": "Cypress Pressure Plate",
       "death.attack.saw": "%1$s was sawn",
       "block.lumber.polished_birch_stairs": "Polished Birch Stairs",
       "block.lumber.polished_warped_fence": "Polished Warped Fence",
       "block.lumber.polished_spruce_slab": "Polished Spruce Slab",
+      "block.lumber.polished_cypress_fence_gate": "Polished Cypress Fence Gate",
       "block.lumber.polished_mangrove_planks": "Polished Mangrove Planks",
       "item.lumber.sawblade_projectile_spawn_egg": "Sawblade Projectile Spawn Egg",
+      "block.lumber.cypress_fence_gate": "Cypress Fence Gate",
       "block.lumber.polished_crimson_fence": "Polished Crimson Fence",
       "block.lumber.polished_jungle_stairs": "Polished Jungle Stairs",
       "block.lumber.polished_spruce_fence_gate": "Polished Spruce Fence Gate",
+      "entity.lumber.lumber_bot_test": "Lumber Bot Test",
       "block.lumber.flowering_spring_spruce_leaves": "Flowering Spring Spruce Leaves",
       "block.lumber.polished_mangrove_stairs": "Polished Mangrove Stairs",
       "block.lumber.oak_log_stairs": "Oak Log Stairs",
@@ -1461,14 +1710,19 @@
       "block.lumber.spring_spruce_leaves": "Spring Spruce Leaves",
       "block.lumber.polished_jungle_fence_gate": "Polished Jungle Fence Gate",
       "block.lumber.polished_crimson_slab": "Polished Crimson Slab",
+      "block.lumber.polished_cypress_fence": "Polished Cypress Fence",
       "block.lumber.polished_dark_oak_stairs": "Polished Dark Oak Stairs",
       "block.lumber.polished_dark_oak_slab": "Polished Dark Oak Slab",
+      "block.lumber.cypress_stairs": "Cypress Stairs",
       "block.lumber.polished_jungle_slab": "Polished Jungle Slab",
       "block.lumber.polished_warped_fence_gate": "Polished Warped Fence Gate",
       "block.lumber.polished_oak_planks": "Polished Oak Planks",
+      "block.lumber.polished_cypress_planks": "Polished Cypress Planks",
       "block.lumber.polished_crimson_planks": "Polished Crimson Planks",
       "item.lumber.lumber_bot_v_1_spawn_egg": "Lumber Bot 1.0 Spawn Egg",
       "block.lumber.polished_oak_stairs": "Polished Oak Stairs",
+      "block.lumber.cypress_planks": "Cypress Planks",
+      "block.lumber.polished_cypress_stairs": "Polished Cypress Stairs",
       "block.lumber.polished_acacia_fence": "Polished Acacia Fence",
       "block.lumber.polished_spruce_fence": "Polished Spruce Fence",
       "block.lumber.polished_dark_oak_fence": "Polished Dark Oak Fence"
