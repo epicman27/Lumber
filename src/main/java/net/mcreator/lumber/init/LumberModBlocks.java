@@ -73,6 +73,7 @@ import net.mcreator.lumber.block.CypressPressurePlateBlock;
 import net.mcreator.lumber.block.CypressPlanksBlock;
 import net.mcreator.lumber.block.CypressFenceGateBlock;
 import net.mcreator.lumber.block.CypressFenceBlock;
+import net.mcreator.lumber.block.AerbloomLeavesBlock;
 import net.mcreator.lumber.block.AcaciaLogsBlock;
 import net.mcreator.lumber.LumberMod;
 
@@ -142,6 +143,7 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> POLISHED_CYPRESS_SLAB = REGISTRY.register("polished_cypress_slab", () -> new PolishedCypressSlabBlock());
 	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE = REGISTRY.register("polished_cypress_fence", () -> new PolishedCypressFenceBlock());
 	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE_GATE = REGISTRY.register("polished_cypress_fence_gate", () -> new PolishedCypressFenceGateBlock());
+	public static final RegistryObject<Block> AERBLOOM_LEAVES = REGISTRY.register("aerbloom_leaves", () -> new AerbloomLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

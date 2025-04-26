@@ -32,6 +32,7 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_WARPED_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.SPRING_SPRUCE_LEAVES.get().asItem());
 			tabData.accept(LumberModBlocks.FLOWERING_SPRING_SPRUCE_LEAVES.get().asItem());
+			tabData.accept(LumberModBlocks.AERBLOOM_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_FENCE_GATE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_BIRCH_FENCE_GATE.get().asItem());
@@ -48,6 +49,8 @@ public class LumberModTabs {
 			tabData.accept(LumberModItems.FIRE_AXE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LumberModItems.HEART_OF_THE_FOREST.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(LumberModItems.IRON_SAWBLADE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LumberModBlocks.POLISHED_OAK_PLANKS.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_OAK_STAIRS.get().asItem());

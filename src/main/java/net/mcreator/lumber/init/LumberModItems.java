@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lumber.item.IronSawbladeItem;
 import net.mcreator.lumber.item.HeartOfTheForestItem;
 import net.mcreator.lumber.item.FireAxeItem;
 import net.mcreator.lumber.item.DebugItem;
@@ -90,6 +91,8 @@ public class LumberModItems {
 	public static final RegistryObject<Item> POLISHED_CYPRESS_FENCE = block(LumberModBlocks.POLISHED_CYPRESS_FENCE);
 	public static final RegistryObject<Item> POLISHED_CYPRESS_FENCE_GATE = block(LumberModBlocks.POLISHED_CYPRESS_FENCE_GATE);
 	public static final RegistryObject<Item> HEART_OF_THE_FOREST = REGISTRY.register("heart_of_the_forest", () -> new HeartOfTheForestItem());
+	public static final RegistryObject<Item> IRON_SAWBLADE = REGISTRY.register("iron_sawblade", () -> new IronSawbladeItem());
+	public static final RegistryObject<Item> AERBLOOM_LEAVES = block(LumberModBlocks.AERBLOOM_LEAVES);
 
 	// Start of user code block custom items
 	// End of user code block custom items
