@@ -18,7 +18,6 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.lumber.entity.SawbladeProjectileEntity;
 import net.mcreator.lumber.entity.LumberBotV1Entity;
-import net.mcreator.lumber.entity.LumberBotTestEntity;
 import net.mcreator.lumber.LumberMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -30,10 +29,6 @@ public class LumberModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SawbladeProjectileEntity>> SAWBLADE_PROJECTILE = register("sawblade_projectile", EntityType.Builder.<SawbladeProjectileEntity>of(SawbladeProjectileEntity::new, MobCategory.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(SawbladeProjectileEntity::new).fireImmune().sized(0.3f, 0.2f));
-	public static final RegistryObject<EntityType<LumberBotTestEntity>> LUMBER_BOT_TEST = register("lumber_bot_test",
-			EntityType.Builder.<LumberBotTestEntity>of(LumberBotTestEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LumberBotTestEntity::new)
-
-					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -46,7 +41,6 @@ public class LumberModEntities {
 		event.enqueueWork(() -> {
 			LumberBotV1Entity.init();
 			SawbladeProjectileEntity.init();
-			LumberBotTestEntity.init();
 		});
 	}
 
@@ -54,6 +48,5 @@ public class LumberModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(LUMBER_BOT_V_1.get(), LumberBotV1Entity.createAttributes().build());
 		event.put(SAWBLADE_PROJECTILE.get(), SawbladeProjectileEntity.createAttributes().build());
-		event.put(LUMBER_BOT_TEST.get(), LumberBotTestEntity.createAttributes().build());
 	}
 }

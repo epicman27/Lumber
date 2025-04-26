@@ -78,7 +78,6 @@ public class LumberModItems {
 	public static final RegistryObject<Item> POLISHED_MANGROVE_PLANKS = block(LumberModBlocks.POLISHED_MANGROVE_PLANKS);
 	public static final RegistryObject<Item> POLISHED_MANGROVE_STAIRS = block(LumberModBlocks.POLISHED_MANGROVE_STAIRS);
 	public static final RegistryObject<Item> POLISHED_MANGROVE_SLAB = block(LumberModBlocks.POLISHED_MANGROVE_SLAB);
-	public static final RegistryObject<Item> LUMBER_BOT_TEST_SPAWN_EGG = REGISTRY.register("lumber_bot_test_spawn_egg", () -> new ForgeSpawnEggItem(LumberModEntities.LUMBER_BOT_TEST, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CYPRESS_PLANKS = block(LumberModBlocks.CYPRESS_PLANKS);
 	public static final RegistryObject<Item> CYPRESS_STAIRS = block(LumberModBlocks.CYPRESS_STAIRS);
 	public static final RegistryObject<Item> CYPRESS_SLAB = block(LumberModBlocks.CYPRESS_SLAB);
