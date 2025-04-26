@@ -97,6 +97,8 @@ public class LumberModTabs {
 			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_SLAB.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_FENCE.get().asItem());
 			tabData.accept(LumberModBlocks.POLISHED_CYPRESS_FENCE_GATE.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_MANGROVE_FENCE.get().asItem());
+			tabData.accept(LumberModBlocks.POLISHED_MANGROVE_FENCE_GATE.get().asItem());
 		}
 	}
 }

@@ -29,6 +29,8 @@ import net.mcreator.lumber.block.PolishedOakFenceBlock;
 import net.mcreator.lumber.block.PolishedMangroveStairsBlock;
 import net.mcreator.lumber.block.PolishedMangroveSlabBlock;
 import net.mcreator.lumber.block.PolishedMangrovePlanksBlock;
+import net.mcreator.lumber.block.PolishedMangroveFenceGateBlock;
+import net.mcreator.lumber.block.PolishedMangroveFenceBlock;
 import net.mcreator.lumber.block.PolishedJungleStairsBlock;
 import net.mcreator.lumber.block.PolishedJungleSlabBlock;
 import net.mcreator.lumber.block.PolishedJunglePlanksBlock;
@@ -144,6 +146,8 @@ public class LumberModBlocks {
 	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE = REGISTRY.register("polished_cypress_fence", () -> new PolishedCypressFenceBlock());
 	public static final RegistryObject<Block> POLISHED_CYPRESS_FENCE_GATE = REGISTRY.register("polished_cypress_fence_gate", () -> new PolishedCypressFenceGateBlock());
 	public static final RegistryObject<Block> AERBLOOM_LEAVES = REGISTRY.register("aerbloom_leaves", () -> new AerbloomLeavesBlock());
+	public static final RegistryObject<Block> POLISHED_MANGROVE_FENCE = REGISTRY.register("polished_mangrove_fence", () -> new PolishedMangroveFenceBlock());
+	public static final RegistryObject<Block> POLISHED_MANGROVE_FENCE_GATE = REGISTRY.register("polished_mangrove_fence_gate", () -> new PolishedMangroveFenceGateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

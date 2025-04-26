@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lumber:polished_mangrove_fence",
     "lumber:polished_cypress_fence",
     "lumber:cypress_fence",
     "lumber:polished_oak_fence",
