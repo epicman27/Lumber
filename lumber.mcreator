@@ -1460,40 +1460,6 @@
       }
     },
     {
-      "name": "PlayerNearSlowFall",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_near_slow_fall",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/lumber/procedures/PlayerNearSlowFallProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "SpawnOnSurfaceProcedureForLater",
       "type": "procedure",
       "compiles": true,
@@ -1590,9 +1556,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/lumber/blockstates/aerbloom_leaves.json",
+          "src/main/java/net/mcreator/lumber/block/AerbloomLeavesBlock.java",
           "src/main/resources/assets/lumber/models/block/aerbloom_leaves.json",
           "src/main/resources/data/lumber/loot_tables/blocks/aerbloom_leaves.json",
-          "src/main/java/net/mcreator/lumber/block/AerbloomLeavesBlock.java",
           "src/main/resources/assets/lumber/models/item/aerbloom_leaves.json"
         ]
       }
@@ -1624,6 +1590,19 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Aerbloom",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerbloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lumber/particles/aerbloom.json",
+          "src/main/java/net/mcreator/lumber/client/particle/AerbloomParticle.java"
         ]
       }
     }
@@ -1825,7 +1804,7 @@
       "item.lumber.heart_of_the_forest": "Heart of the Forest",
       "block.lumber.oak_log_stairs_ud": "Oak Log Stairs",
       "block.lumber.cypress_slab": "Cypress Slab",
-      "block.lumber.aerbloom_leaves": "Flowering Spring Spruce Leaves",
+      "block.lumber.aerbloom_leaves": "Aerbloom Leaves",
       "item.lumber.lumber_bot_test_spawn_egg": "Lumber Bot Test Spawn Egg",
       "block.lumber.polished_oak_fence": "Polished Oak Fence",
       "item.lumber.fire_axe": "Fire Axe",

@@ -35,7 +35,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Flowering Spring Spruce Leaves",
+    "name": "Aerbloom Leaves",
     "specialInformation": {
       "fixedValue": []
     },
@@ -57,7 +57,7 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": false,
+    "canRedstoneConnect": true,
     "lightOpacity": 1,
     "material": {
       "value": "NONE"
@@ -122,7 +122,10 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
+    "onRightClicked": {
+      "name": "AerbloomLeavesOnTickUpdate"
+    },
+    "onRedstoneOn": {
       "name": "AerbloomLeavesOnTickUpdate"
     },
     "generateFeature": false,

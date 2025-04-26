@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.lumber.init.LumberModTabs;
+import net.mcreator.lumber.init.LumberModParticleTypes;
 import net.mcreator.lumber.init.LumberModMenus;
 import net.mcreator.lumber.init.LumberModItems;
 import net.mcreator.lumber.init.LumberModEntities;
@@ -49,6 +50,8 @@ public class LumberMod {
 		LumberModEntities.REGISTRY.register(bus);
 
 		LumberModTabs.REGISTRY.register(bus);
+
+		LumberModParticleTypes.REGISTRY.register(bus);
 
 		LumberModMenus.REGISTRY.register(bus);
 
